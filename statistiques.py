@@ -113,7 +113,7 @@ class Statistiques():
         forces = []
 
         for person in self.lst_perso:
-            #todo isinstance permet de savoir si ce personnage est un pirate
+            #todo isinstance permet de savoir si ce personnage est un marine
             if isinstance(person, Marine):
                 Marine.calcul_force_total(person)
             #todo isinstance permet de savoir si ce personnage est un pirate

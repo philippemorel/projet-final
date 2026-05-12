@@ -6,7 +6,8 @@ class Arene():
 
 
     def __init__(self):
-        pass
+        
+        self.lst_personnage : list[Personnage] = []
 
 
 
@@ -26,24 +27,7 @@ class Arene():
 
                     print(f"vous attaquer et avec attaque coup de point")
                     print(f"et faite 30 de degas")
-
-
-    
-
-
-
-
-
-
-    
-    def __init__(self):
-        
-        self.lst_personnage : list[Personnage] = []
-
-
-
-
-            
+  
 
 
 
@@ -58,8 +42,8 @@ class Arene():
     def combat (self):
 
 
-        index_personnage1 = int(input("quel premier personnage voulez vous faire combatre : "))
-        index_personnage2 = int(input("quel deuxieme personnage voulez vous faire combatre : "))
+        index_personnage1 = input("quel premier personnage voulez vous faire combatre : ")
+        index_personnage2 = input("quel deuxieme personnage voulez vous faire combatre : ")
 
         personnage1 = self.lst_personnage[index_personnage1]
         personnage2 = self.lst_personnage[index_personnage2]
@@ -76,7 +60,7 @@ class Arene():
                 break
             #todo attaque du perso2 
             damage = personnage2.attaquer()
-            personnage1.subir_degat(damage)
+            personnage1.pv -= damage
             print(f"le personnage {personnage1.nom} a subis {damage} degat de {personnage2.nom}")
 
             if personnage1.vie <= 0 :

@@ -40,18 +40,24 @@ class Personnage():
             int: La puissance calculer
         """
         force_age = 0
-        if "captain" in self.job :
-            force_age += 500
+        try:
+            if "captain" in self.job :
+                force_age += 500
+        except TypeError:
+            pass
 
         #todo calcul avec l'âge  
-        if self.age < 18 :
-            force_age -= 100
-        elif self.age < 30 :
-            force_age += 100
-        elif self.age < 60 :
-            force_age += 50
-        elif self.age > 60 :
-            force_age += 50
+        try:
+            if self.age < 18 :
+                force_age -= 100
+            elif self.age < 30 :
+                force_age += 100
+            elif self.age < 60 :
+                force_age += 50
+            elif self.age > 60 :
+                force_age += 50
+        except TypeError:
+            pass
         return force_age
 
     def calculer_puissance_fruit(self, force) -> int:
