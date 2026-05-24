@@ -47,6 +47,7 @@ while choix != 0:
     ║  4    Force en fonction de l'âge             ║
     ║  5    Lancer un combat dans l'arène          ║
     ║  6    Afficher les boxplots des stats        ║
+    ║  7    combat de ffa                          ║
     ║  0    Quitter le monde de One Piece          ║
     ╚══════════════════════════════════════════════╝
     """)
@@ -74,6 +75,7 @@ while choix != 0:
             statistiques.force_en_fonction_age()
         case 5:
             print("══════ ARÈNE DES PIRATES ══════")
+            print("═════════combat de 1v1═════════")
             arene.combat(lst_membre)
             print()
             print(" Fin du combat du Nouveau Monde!")
@@ -81,6 +83,12 @@ while choix != 0:
             print()
             print(" Génération des boxplots des statistiques...")
             statistiques.graph_boxplot_stats()
+        case 7 : 
+            print("══════ ARÈNE DES PIRATES ══════")
+            print("════════ combat de ffa ════════")  
+            arene.battle_royal()
+            arene.nettoyage_arene()
+            
         case 0:
 
             print("""

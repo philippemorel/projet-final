@@ -212,21 +212,24 @@ class Arene():
     
     def nettoyage_arene(self):
 
-        for personnage in self.lst_personnage :
+        for personnage in self.lst_perso :
             if personnage.pv <= 0 :
-                self.lst_personnage.remove(personnage)
+                self.lst_perso.remove(personnage)
 
 
 
     def battle_royal(self):
         lst_verif : list[Personnage|Pirate|Marine]= []
 
+        #todo Reset des PV
+        for personnage in self.lst_perso:
+            personnage.pv = personnage.calculer_pv()
+
         for personnage in self.lst_perso :
             if personnage.pv > 0 :
                 lst_verif.append(personnage)
 
         nombre_tour = 1                
-
 
         while len(lst_verif) > 1 :
 
@@ -235,29 +238,47 @@ class Arene():
             index_personnage1 = random.randint(0,len(lst_verif) - 1)
             index_personnage2 = random.randint(0,len(lst_verif) - 1)
 
+            while index_personnage1 == index_personnage2:
+                index_personnage2 = random.randint(0, len(lst_verif) - 1)
+
             personnage1 = lst_verif[index_personnage1]
             personnage2 = lst_verif[index_personnage2]
-                
+                    
             #todo attaque du perso1
             degat = personnage1.attaque()
             personnage2.pv -= degat
+
             print(f"le personnage {personnage2.nom} a subis {degat} degat de {personnage1.nom}")
+
             if personnage2.pv <= 0 :
+
                 print(f"personnage {personnage1.nom} a gagner contre {personnage2.nom}")
+
                 lst_verif.remove(personnage2)
-            
-            else :        
+                
+            else :
+
                 #todo attaque du perso2 
                 degat = personnage2.attaque()
                 personnage1.pv -= degat
+
                 print(f"le personnage {personnage1.nom} a subis {degat} degat de {personnage2.nom}")
 
-            if personnage1.vie <= 0 :
+            if personnage1.pv <= 0 :
+
                 print(f"personnage {personnage2.nom} a gagner contre {personnage1.nom}")
+
                 lst_verif.remove(personnage1)
+
             nombre_tour += 1
 
+        print(f"\nLe gagnant est {lst_verif[0].nom}")
 
+
+
+
+
+                            
 
 
 
@@ -267,9 +288,4 @@ class Arene():
 
 
 
-                    
-
-
-
-
-                    
+                        
