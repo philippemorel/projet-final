@@ -3,7 +3,8 @@ from fruit import Fruit
 class Personnage():
     #! doc docstring
 
-    def __init__(self, nom :str, job :str, age :int, size :int, use_fruit :bool, fruit :Fruit, vivant :str) :
+    def __init__(self,id, nom :str, job :str, age :int, size :int, use_fruit :bool, fruit :Fruit, vivant :str) :
+        self.id = id
         self.nom = nom
         self.job = job
         self.force = 1000
@@ -22,6 +23,7 @@ class Personnage():
         
     def to_dict(self) : 
         return {
+            "id": self.id,
             "nom" : self.nom,
             "job" : self.job,
             "force" : self.force,
@@ -49,7 +51,7 @@ class Personnage():
         #todo calcul avec l'âge  
         try:
             if self.age < 18 :
-                force_age -= 100
+                force_age += 25
             elif self.age < 30 :
                 force_age += 100
             elif self.age < 60 :
@@ -101,7 +103,7 @@ class Personnage():
         """Méthode pour calculer le total de pv
         """
         self.pv = self.force * 5
-
+        return self.pv
     def attaque(self) -> int :
         """Méthode pour calculer le nombre de dégâts causé par une attaque
 
@@ -110,9 +112,9 @@ class Personnage():
         """
         dammage = self.force * 0.8
 
-        return dammage
+        return int(dammage)
     
-    def defense(self, dammage) -> int:
+    def defense(self, dammage : int) -> int:
         """Méthode pour calculer le total de dégat moins le nombre de dégat bloqué
 
         Args:
@@ -123,18 +125,18 @@ class Personnage():
         """
         dammage *= 0.60
 
-        return dammage
+        return int(dammage)
     
-    def regen(self, pv_act) -> int :
+    def regen(self) -> int:
         
-        dammage = self.pv - pv_act
+        regen = int(self.force * 0.5)
 
-        pv_act += (dammage * 0.7)
+        self.pv += regen
         
-        return pv_act
+        return self.pv
 
     def attaque_fruite(self) -> int:
     
         dammage = self.force * 1.1
 
-        return dammage
+        return int(dammage)

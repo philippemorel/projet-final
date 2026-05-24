@@ -2,8 +2,8 @@ from personnage import Personnage
 
 class Marine(Personnage):
 
-    def __init__(self, nom, job, age, size, use_fruit, fruit, vivant):
-        super().__init__(nom, job, age, size, use_fruit, fruit, vivant)
+    def __init__(self,id, nom, job, age, size, use_fruit, fruit, vivant):
+        super().__init__(id,nom, job, age, size, use_fruit, fruit, vivant)
     
     def caculer_puissance_age(self) :
         """Méthode pour calculer la puissance selon l'âge
@@ -20,7 +20,7 @@ class Marine(Personnage):
       #todo calcul avec l'âge  
         try:
             if self.age < 18 :
-                force_age -= 100
+                force_age += 25
             elif self.age < 30 :
                 force_age += 100
             elif self.age < 60 :

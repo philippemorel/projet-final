@@ -5,8 +5,8 @@ class Pirate(Personnage):
     #! doc docstring
 
 
-    def __init__(self, nom, job, age, size, use_fruit, fruit, vivant, prime: int):
-        super().__init__(nom, job, age, size, use_fruit, fruit, vivant)
+    def __init__(self,id, nom, job, age, size, use_fruit, fruit, vivant, prime: int):
+        super().__init__(id, nom, job, age, size, use_fruit, fruit, vivant)
         self.prime = prime
 
     def __str__(self) :
@@ -17,6 +17,7 @@ class Pirate(Personnage):
 
     def to_dict(self): 
         return {
+            "id": self.id,
             "nom" : self.nom,
             "job" : self.job,
             "force" : self.force,
@@ -47,7 +48,7 @@ class Pirate(Personnage):
       #todo calcul avec l'âge  
         try:
             if self.age < 18 :
-                force_age -= 100
+                force_age += 25
             elif self.age < 30 :
                 force_age += 100
             elif self.age < 60 :
@@ -60,28 +61,26 @@ class Pirate(Personnage):
     
     
     def calcul_puissance_prime(self):
-        force_prime = 0
-
         if not self.prime:
             return 0
 
         try:
-            prime_str = self.prime.replace('.', '')
+            prime_str = str(self.prime).replace('.', '')
             prime = int(prime_str)
 
             if prime > 5_000_000_000:
-                force_prime += 5000
+                return 5000
             elif prime > 3_000_000_000:
-                force_prime += 3000
+                return 3000
             elif prime > 1_000_000_000:
-                force_prime += 1000
+                return  1000
             elif prime > 1_000_000:
-                force_prime += 100
+                return  100
 
         except ValueError:
             return 0
 
-        return force_prime
+        return 0
         
     
         

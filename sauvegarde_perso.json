@@ -4,6 +4,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 1,
                 "nom": "Monkey D Luffy",
                 "job": "Captain",
                 "force": 1000,
@@ -16,9 +17,10 @@
                 },
                 "pv": 2000,
                 "vivant": "vivant",
-                "prime": "3.000.000.000"
+                "prime": 3000000000
             },
             {
+                "id": 2,
                 "nom": "Roronoa Zoro",
                 "job": "Right-hand man",
                 "force": 1000,
@@ -31,9 +33,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.101.000.000"
+                "prime": 1101000000
             },
             {
+                "id": 3,
                 "nom": "Nami",
                 "job": "Navigator",
                 "force": 1000,
@@ -46,9 +49,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "366.000.000"
+                "prime": 366000000
             },
             {
+                "id": 4,
                 "nom": "Usopp",
                 "job": "Sniper",
                 "force": 1000,
@@ -61,9 +65,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "500.000.000"
+                "prime": 500000000
             },
             {
+                "id": 5,
                 "nom": "Sanji",
                 "job": "Cook",
                 "force": 1000,
@@ -76,9 +81,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.032.000.000"
+                "prime": 1032000000
             },
             {
+                "id": 6,
                 "nom": "Tony-Tony Chopper",
                 "job": "Doctor",
                 "force": 1000,
@@ -91,9 +97,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1000"
+                "prime": 1000
             },
             {
+                "id": 7,
                 "nom": "Nico Robin",
                 "job": "Archaeologist",
                 "force": 1000,
@@ -106,9 +113,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "930.000.000"
+                "prime": 930000000
             },
             {
+                "id": 8,
                 "nom": "Franky",
                 "job": "Carpenter",
                 "force": 1000,
@@ -121,9 +129,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "394.000.000"
+                "prime": 394000000
             },
             {
+                "id": 9,
                 "nom": "Brook",
                 "job": "Musician",
                 "force": 1000,
@@ -136,9 +145,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "383.000.000"
+                "prime": 383000000
             },
             {
+                "id": 10,
                 "nom": "Jinbe",
                 "job": "Helmsman",
                 "force": 1000,
@@ -151,9 +161,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.100.000.000"
+                "prime": 1100000000
             },
             {
+                "id": 11,
                 "nom": "Zeus",
                 "job": "Nami Arme",
                 "force": 1000,
@@ -174,6 +185,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 12,
                 "nom": "Cavendish",
                 "job": "Captain",
                 "force": 1000,
@@ -186,9 +198,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "330.000.000"
+                "prime": 330000000
             },
             {
+                "id": 13,
                 "nom": "Suleiman",
                 "job": "Fighter",
                 "force": 1000,
@@ -201,9 +214,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "67.0000.000"
+                "prime": 670000000
             },
             {
+                "id": 14,
                 "nom": "Bartolomeo",
                 "job": "Captain",
                 "force": 1000,
@@ -216,9 +230,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "200.000.000"
+                "prime": 200000000
             },
             {
+                "id": 15,
                 "nom": "Gambia",
                 "job": "Advisor",
                 "force": 1000,
@@ -231,9 +246,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "67.0000.000"
+                "prime": 670000000
             },
             {
+                "id": 16,
                 "nom": "Sai",
                 "job": "13th Chief Commander",
                 "force": 1000,
@@ -246,9 +262,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "210.000.000"
+                "prime": 210000000
             },
             {
+                "id": 17,
                 "nom": "Boo",
                 "job": "second-in-command",
                 "force": 1000,
@@ -263,6 +280,7 @@
                 "vivant": "living"
             },
             {
+                "id": 18,
                 "nom": "Baby 5",
                 "job": "",
                 "force": 1000,
@@ -277,6 +295,7 @@
                 "vivant": "living"
             },
             {
+                "id": 19,
                 "nom": "Ideo",
                 "job": "Captain",
                 "force": 1000,
@@ -291,6 +310,7 @@
                 "vivant": "living"
             },
             {
+                "id": 20,
                 "nom": "Blue Gilly",
                 "job": "",
                 "force": 1000,
@@ -305,6 +325,7 @@
                 "vivant": "living"
             },
             {
+                "id": 21,
                 "nom": "Abdullah",
                 "job": "",
                 "force": 1000,
@@ -319,6 +340,7 @@
                 "vivant": "living"
             },
             {
+                "id": 22,
                 "nom": "Jeet",
                 "job": "",
                 "force": 1000,
@@ -333,6 +355,7 @@
                 "vivant": "living"
             },
             {
+                "id": 23,
                 "nom": "Léo",
                 "job": "Captain",
                 "force": 1000,
@@ -347,6 +370,7 @@
                 "vivant": "living"
             },
             {
+                "id": 24,
                 "nom": "Kabu",
                 "job": "",
                 "force": 1000,
@@ -361,6 +385,7 @@
                 "vivant": "living"
             },
             {
+                "id": 25,
                 "nom": "Bee Anne",
                 "job": "",
                 "force": 1000,
@@ -375,6 +400,7 @@
                 "vivant": "living"
             },
             {
+                "id": 26,
                 "nom": "Hajrudin",
                 "job": "Captain",
                 "force": 1000,
@@ -389,6 +415,7 @@
                 "vivant": "living"
             },
             {
+                "id": 27,
                 "nom": "Stansen",
                 "job": "Carpenter",
                 "force": 1000,
@@ -403,6 +430,7 @@
                 "vivant": "living"
             },
             {
+                "id": 28,
                 "nom": "Road",
                 "job": "Browser",
                 "force": 1000,
@@ -417,6 +445,7 @@
                 "vivant": "living"
             },
             {
+                "id": 29,
                 "nom": "Goldberg",
                 "job": "Cook",
                 "force": 1000,
@@ -431,6 +460,7 @@
                 "vivant": "living"
             },
             {
+                "id": 30,
                 "nom": "Gerd",
                 "job": "Doctor",
                 "force": 1000,
@@ -445,6 +475,7 @@
                 "vivant": "living"
             },
             {
+                "id": 31,
                 "nom": "Orlumbus",
                 "job": "Admiral",
                 "force": 1000,
@@ -457,7 +488,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "148.000.000"
+                "prime": 148000000
             }
         ]
     },
@@ -466,6 +497,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 32,
                 "nom": "Baggy / Le Clown",
                 "job": "Chairman",
                 "force": 1000,
@@ -478,9 +510,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "15.0000.000"
+                "prime": 150000000
             },
             {
+                "id": 33,
                 "nom": "Alvida",
                 "job": "",
                 "force": 1000,
@@ -493,9 +526,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "5.000.000"
+                "prime": 5000000
             },
             {
+                "id": 34,
                 "nom": "Galdino",
                 "job": "",
                 "force": 1000,
@@ -508,9 +542,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "24.000.000"
+                "prime": 24000000
             },
             {
+                "id": 35,
                 "nom": "Morge",
                 "job": "",
                 "force": 1000,
@@ -525,6 +560,7 @@
                 "vivant": "living"
             },
             {
+                "id": 36,
                 "nom": "Cabaji",
                 "job": "",
                 "force": 1000,
@@ -545,6 +581,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 37,
                 "nom": "Kuro",
                 "job": "Captain",
                 "force": 1000,
@@ -557,9 +594,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "16.000.000"
+                "prime": 16000000
             },
             {
+                "id": 38,
                 "nom": "Sham",
                 "job": "Officer",
                 "force": 1000,
@@ -572,9 +610,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "7.000.000"
+                "prime": 7000000
             },
             {
+                "id": 39,
                 "nom": "Buchi",
                 "job": "Officer",
                 "force": 1000,
@@ -587,7 +626,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "7.000.000"
+                "prime": 7000000
             }
         ]
     },
@@ -596,6 +635,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 40,
                 "nom": "Krieg / Don Krieg",
                 "job": "Captain",
                 "force": 1000,
@@ -608,9 +648,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "17.000.000"
+                "prime": 17000000
             },
             {
+                "id": 41,
                 "nom": "Gyn",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -623,9 +664,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "12.000.000"
+                "prime": 12000000
             },
             {
+                "id": 42,
                 "nom": "Pearl",
                 "job": "Captain (2nd Battalion)",
                 "force": 1000,
@@ -646,6 +688,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 43,
                 "nom": "Montblanc Cricket",
                 "job": "Commander-in-Chief",
                 "force": 1000,
@@ -658,9 +701,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "25.000.000"
+                "prime": 25000000
             },
             {
+                "id": 44,
                 "nom": "Masira",
                 "job": "",
                 "force": 1000,
@@ -673,9 +717,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "23.000.000"
+                "prime": 23000000
             },
             {
+                "id": 45,
                 "nom": "Shojo",
                 "job": "",
                 "force": 1000,
@@ -688,7 +733,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "36.000.000"
+                "prime": 36000000
             }
         ]
     },
@@ -697,6 +742,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 46,
                 "nom": "Foxy",
                 "job": "Captain",
                 "force": 1000,
@@ -709,9 +755,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "24.000.000"
+                "prime": 24000000
             },
             {
+                "id": 47,
                 "nom": "Porché",
                 "job": "Fighter",
                 "force": 1000,
@@ -726,6 +773,7 @@
                 "vivant": "living"
             },
             {
+                "id": 48,
                 "nom": "Hamburg",
                 "job": "Fighter",
                 "force": 1000,
@@ -746,6 +794,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 49,
                 "nom": "Gecko Moria",
                 "job": "Captain",
                 "force": 1000,
@@ -758,9 +807,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "320.000.000"
+                "prime": 320000000
             },
             {
+                "id": 50,
                 "nom": "Hogback",
                 "job": "Mysterious Four",
                 "force": 1000,
@@ -775,6 +825,7 @@
                 "vivant": "living"
             },
             {
+                "id": 51,
                 "nom": "Absalom",
                 "job": "Mysterious Four",
                 "force": 1000,
@@ -789,6 +840,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 52,
                 "nom": "Perona",
                 "job": "Mysterious Four",
                 "force": 1000,
@@ -809,6 +861,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 53,
                 "nom": "Laura",
                 "job": "Captain",
                 "force": 1000,
@@ -821,7 +874,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "24.000.000"
+                "prime": 24000000
             }
         ]
     },
@@ -830,6 +883,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 54,
                 "nom": "Trafalgar D. Water Law",
                 "job": "Captain",
                 "force": 1000,
@@ -842,9 +896,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "500.000.000"
+                "prime": 500000000
             },
             {
+                "id": 55,
                 "nom": "Bepo",
                 "job": "Browser",
                 "force": 1000,
@@ -857,9 +912,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "500"
+                "prime": 500
             },
             {
+                "id": 56,
                 "nom": "Jean Bart",
                 "job": "",
                 "force": 1000,
@@ -874,6 +930,7 @@
                 "vivant": "living"
             },
             {
+                "id": 57,
                 "nom": "Shachi",
                 "job": "",
                 "force": 1000,
@@ -888,6 +945,7 @@
                 "vivant": "living"
             },
             {
+                "id": 58,
                 "nom": "Pingouin",
                 "job": "",
                 "force": 1000,
@@ -908,6 +966,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 59,
                 "nom": "Eustass Kidd",
                 "job": "Captain",
                 "force": 1000,
@@ -920,9 +979,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "470.000.000"
+                "prime": 470000000
             },
             {
+                "id": 60,
                 "nom": "Killer",
                 "job": "Fighter",
                 "force": 1000,
@@ -935,9 +995,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "200.000.000"
+                "prime": 200000000
             },
             {
+                "id": 61,
                 "nom": "Heat",
                 "job": "Fighter",
                 "force": 1000,
@@ -952,6 +1013,7 @@
                 "vivant": "living"
             },
             {
+                "id": 62,
                 "nom": "Wire",
                 "job": "Captain",
                 "force": 1000,
@@ -972,6 +1034,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 63,
                 "nom": "Capone Bege",
                 "job": "Captain",
                 "force": 1000,
@@ -984,9 +1047,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "350.000.000"
+                "prime": 350000000
             },
             {
+                "id": 64,
                 "nom": "Vito",
                 "job": "Advisor",
                 "force": 1000,
@@ -999,9 +1063,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "95.000.000"
+                "prime": 95000000
             },
             {
+                "id": 65,
                 "nom": "Gotti",
                 "job": "Assassin",
                 "force": 1000,
@@ -1014,9 +1079,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "90.000.000"
+                "prime": 90000000
             },
             {
+                "id": 66,
                 "nom": "Charlotte Chiffon",
                 "job": "",
                 "force": 1000,
@@ -1031,6 +1097,7 @@
                 "vivant": "living"
             },
             {
+                "id": 67,
                 "nom": "Charlotte Pets",
                 "job": "",
                 "force": 1000,
@@ -1045,6 +1112,7 @@
                 "vivant": "living"
             },
             {
+                "id": 68,
                 "nom": "Jewelry Bonney",
                 "job": "Captain",
                 "force": 1000,
@@ -1057,7 +1125,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "140.000.000"
+                "prime": 140000000
             }
         ]
     },
@@ -1066,6 +1134,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 69,
                 "nom": "Urouge",
                 "job": "Captain",
                 "force": 1000,
@@ -1078,7 +1147,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "108.000.000"
+                "prime": 108000000
             }
         ]
     },
@@ -1087,6 +1156,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 70,
                 "nom": "Boa Hancock",
                 "job": "Captain",
                 "force": 1000,
@@ -1099,9 +1169,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "80.000.000"
+                "prime": 80000000
             },
             {
+                "id": 71,
                 "nom": "Boa Sandersonia",
                 "job": "",
                 "force": 1000,
@@ -1114,9 +1185,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "40.000.000"
+                "prime": 40000000
             },
             {
+                "id": 72,
                 "nom": "Boa Marigold",
                 "job": "",
                 "force": 1000,
@@ -1129,9 +1201,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "40.000.000"
+                "prime": 40000000
             },
             {
+                "id": 73,
                 "nom": "Margaret",
                 "job": "",
                 "force": 1000,
@@ -1152,6 +1225,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 74,
                 "nom": "Shiki",
                 "job": "Admiral",
                 "force": 1000,
@@ -1166,6 +1240,7 @@
                 "vivant": "living"
             },
             {
+                "id": 75,
                 "nom": "Indigo",
                 "job": "",
                 "force": 1000,
@@ -1180,6 +1255,7 @@
                 "vivant": "living"
             },
             {
+                "id": 730,
                 "nom": "Scarlett",
                 "job": "",
                 "force": 1000,
@@ -1194,6 +1270,7 @@
                 "vivant": "living"
             },
             {
+                "id": 731,
                 "nom": "Billy",
                 "job": "",
                 "force": 1000,
@@ -1208,6 +1285,7 @@
                 "vivant": "living"
             },
             {
+                "id": 732,
                 "nom": "Xiao",
                 "job": "",
                 "force": 1000,
@@ -1228,6 +1306,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 76,
                 "nom": "Caribou",
                 "job": "Co-Captain",
                 "force": 1000,
@@ -1240,9 +1319,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "210.000.000"
+                "prime": 210000000
             },
             {
+                "id": 77,
                 "nom": "Coribou",
                 "job": "Co-Captain",
                 "force": 1000,
@@ -1255,7 +1335,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "190.000.000"
+                "prime": 190000000
             }
         ]
     },
@@ -1264,6 +1344,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 78,
                 "nom": "Ficher Tiger",
                 "job": "Captain",
                 "force": 1000,
@@ -1276,9 +1357,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "230.000.000"
+                "prime": 230000000
             },
             {
+                "id": 79,
                 "nom": "Aladdin",
                 "job": "Vice-Captain",
                 "force": 1000,
@@ -1293,6 +1375,7 @@
                 "vivant": "living"
             },
             {
+                "id": 80,
                 "nom": "Charlotte Praliné",
                 "job": "",
                 "force": 1000,
@@ -1313,6 +1396,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 81,
                 "nom": "Dracule Mihawk",
                 "job": "",
                 "force": 1000,
@@ -1327,6 +1411,7 @@
                 "vivant": "living"
             },
             {
+                "id": 82,
                 "nom": "Crocodile",
                 "job": "",
                 "force": 1000,
@@ -1339,9 +1424,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "81.000.000"
+                "prime": 81000000
             },
             {
+                "id": 83,
                 "nom": "Das Bones",
                 "job": "",
                 "force": 1000,
@@ -1354,9 +1440,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "75.000.000"
+                "prime": 75000000
             },
             {
+                "id": 84,
                 "nom": "Edward Weeble",
                 "job": "",
                 "force": 1000,
@@ -1369,9 +1456,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "480.000.000"
+                "prime": 480000000
             },
             {
+                "id": 693,
                 "nom": "El Gorago",
                 "job": "Captain",
                 "force": 1000,
@@ -1384,9 +1472,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "10.000.000"
+                "prime": 10000000
             },
             {
+                "id": 694,
                 "nom": "Golass",
                 "job": "Captain",
                 "force": 1000,
@@ -1399,9 +1488,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "8.000.000"
+                "prime": 8000000
             },
             {
+                "id": 695,
                 "nom": "Tobio",
                 "job": "",
                 "force": 1000,
@@ -1416,6 +1506,7 @@
                 "vivant": "living"
             },
             {
+                "id": 696,
                 "nom": "Ganzo",
                 "job": "",
                 "force": 1000,
@@ -1430,6 +1521,7 @@
                 "vivant": "living"
             },
             {
+                "id": 697,
                 "nom": "Woonan",
                 "job": "Captain",
                 "force": 1000,
@@ -1442,9 +1534,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "60.000.000"
+                "prime": 60000000
             },
             {
+                "id": 705,
                 "nom": "Bulter",
                 "job": "Earl Butler",
                 "force": 1000,
@@ -1457,9 +1550,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "14.900.000"
+                "prime": 14900000
             },
             {
+                "id": 706,
                 "nom": "Hotdog",
                 "job": "General Hotdog",
                 "force": 1000,
@@ -1472,9 +1566,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "4.000.000"
+                "prime": 4000000
             },
             {
+                "id": 707,
                 "nom": "Mobambi",
                 "job": "King",
                 "force": 1000,
@@ -1489,6 +1584,7 @@
                 "vivant": "living"
             },
             {
+                "id": 708,
                 "nom": "Heaby",
                 "job": "Chairman Heaby",
                 "force": 1000,
@@ -1501,9 +1597,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "4.200.000"
+                "prime": 4200000
             },
             {
+                "id": 743,
                 "nom": "Douglas Bullet",
                 "job": "",
                 "force": 1000,
@@ -1518,6 +1615,7 @@
                 "vivant": "living"
             },
             {
+                "id": 744,
                 "nom": "Buena Festa",
                 "job": "",
                 "force": 1000,
@@ -1532,6 +1630,7 @@
                 "vivant": "living"
             },
             {
+                "id": 745,
                 "nom": "Ann",
                 "job": "",
                 "force": 1000,
@@ -1546,6 +1645,7 @@
                 "vivant": "living"
             },
             {
+                "id": 746,
                 "nom": "Donald Moderate",
                 "job": "",
                 "force": 1000,
@@ -1560,6 +1660,7 @@
                 "vivant": "living"
             },
             {
+                "id": 750,
                 "nom": "Gion",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -1574,6 +1675,7 @@
                 "vivant": "living"
             },
             {
+                "id": 751,
                 "nom": "Musshuru",
                 "job": "",
                 "force": 1000,
@@ -1588,6 +1690,7 @@
                 "vivant": "living"
             },
             {
+                "id": 752,
                 "nom": "Apis",
                 "job": "",
                 "force": 1000,
@@ -1602,6 +1705,7 @@
                 "vivant": "living"
             },
             {
+                "id": 753,
                 "nom": "Bokuden",
                 "job": "",
                 "force": 1000,
@@ -1616,6 +1720,7 @@
                 "vivant": "living"
             },
             {
+                "id": 757,
                 "nom": "Pandaman",
                 "job": "Fighter",
                 "force": 1000,
@@ -1630,6 +1735,7 @@
                 "vivant": "unknown"
             },
             {
+                "id": 758,
                 "nom": "Zenny",
                 "job": "Loan shark",
                 "force": 1000,
@@ -1644,6 +1750,7 @@
                 "vivant": "living"
             },
             {
+                "id": 759,
                 "nom": "Wetton",
                 "job": "Mayor",
                 "force": 1000,
@@ -1656,9 +1763,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "14.800.000"
+                "prime": 14800000
             },
             {
+                "id": 761,
                 "nom": "Végapunk",
                 "job": "Scientist",
                 "force": 1000,
@@ -1673,6 +1781,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 763,
                 "nom": "Punk 01 - Shaka",
                 "job": "Vegapunk - the good",
                 "force": 1000,
@@ -1687,6 +1796,7 @@
                 "vivant": "unknown"
             },
             {
+                "id": 764,
                 "nom": "Punk 02 - Lilith",
                 "job": "Vegapunk - evil",
                 "force": 1000,
@@ -1701,6 +1811,7 @@
                 "vivant": "living"
             },
             {
+                "id": 765,
                 "nom": "Punk 03 - Edison",
                 "job": "Vegapunk - inventiveness",
                 "force": 1000,
@@ -1715,6 +1826,7 @@
                 "vivant": "living"
             },
             {
+                "id": 766,
                 "nom": "Punk 04 - Pythagoras",
                 "job": "Vegapunk - knowledge",
                 "force": 1000,
@@ -1729,6 +1841,7 @@
                 "vivant": "living"
             },
             {
+                "id": 767,
                 "nom": "Punk 05 - Atlas",
                 "job": "Vegapunk - violence",
                 "force": 1000,
@@ -1743,6 +1856,7 @@
                 "vivant": "living"
             },
             {
+                "id": 768,
                 "nom": "Punk 06 - York",
                 "job": "Vegapunk - envy",
                 "force": 1000,
@@ -1757,6 +1871,7 @@
                 "vivant": "living"
             },
             {
+                "id": 769,
                 "nom": "S-Snake",
                 "job": "Seraph-type pacifistas",
                 "force": 1000,
@@ -1771,6 +1886,7 @@
                 "vivant": "living"
             },
             {
+                "id": 770,
                 "nom": "S-Hawk",
                 "job": "Seraph-type pacifistas",
                 "force": 1000,
@@ -1785,6 +1901,7 @@
                 "vivant": "living"
             },
             {
+                "id": 771,
                 "nom": "S-Bear",
                 "job": "Seraph-type pacifistas",
                 "force": 1000,
@@ -1799,6 +1916,7 @@
                 "vivant": "living"
             },
             {
+                "id": 772,
                 "nom": "S-Shark",
                 "job": "Seraph-type pacifistas",
                 "force": 1000,
@@ -1813,6 +1931,7 @@
                 "vivant": "living"
             },
             {
+                "id": 774,
                 "nom": "Jaygarcia Saturn",
                 "job": "God of science / research-related matters",
                 "force": 1000,
@@ -1827,6 +1946,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 775,
                 "nom": "Marcus Mars",
                 "job": "God of the environment / global communication",
                 "force": 1000,
@@ -1841,6 +1961,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 776,
                 "nom": "Topman Warcury",
                 "job": "God of justice / military might",
                 "force": 1000,
@@ -1855,6 +1976,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 777,
                 "nom": "Ethanbaron V. Nusjuro",
                 "job": "God of the global economy / global finance",
                 "force": 1000,
@@ -1869,6 +1991,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 778,
                 "nom": "Shepherd Ju Peter",
                 "job": "God of agriculture / resources",
                 "force": 1000,
@@ -1883,6 +2006,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 779,
                 "nom": "Imu Neronna",
                 "job": "Absolute ruler of the world",
                 "force": 1000,
@@ -1897,6 +2021,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 780,
                 "nom": "Figarland Shamrock",
                 "job": "Leader of the Divine Knights",
                 "force": 1000,
@@ -1911,6 +2036,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 781,
                 "nom": "Vegapunk “Shaka”",
                 "job": "Scientist - Justice / Logic",
                 "force": 1000,
@@ -1925,6 +2051,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 782,
                 "nom": "Vegapunk “Lilith”",
                 "job": "Scientist - Malice/Survival",
                 "force": 1000,
@@ -1939,6 +2066,7 @@
                 "vivant": "alive"
             },
             {
+                "id": 783,
                 "nom": "Vegapunk “Edison”",
                 "job": "Scientist - Creativity/Engineering",
                 "force": 1000,
@@ -1953,6 +2081,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 784,
                 "nom": "Vegapunk “Pythagoras”",
                 "job": "Scientist - Analysis/robotics",
                 "force": 1000,
@@ -1967,6 +2096,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 785,
                 "nom": "Vegapunk “Atlas”",
                 "job": "Scientist - Strength/combat",
                 "force": 1000,
@@ -1981,6 +2111,7 @@
                 "vivant": "dead"
             },
             {
+                "id": 786,
                 "nom": "Vegapunk “York”",
                 "job": "Scientist - Desire / greed",
                 "force": 1000,
@@ -2001,6 +2132,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 85,
                 "nom": "Shanks",
                 "job": "Captain",
                 "force": 1000,
@@ -2013,9 +2145,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "4.048.900.000"
+                "prime": 4048900000
             },
             {
+                "id": 86,
                 "nom": "Ben Beckmann",
                 "job": "Vice-Captain",
                 "force": 1000,
@@ -2030,6 +2163,7 @@
                 "vivant": "living"
             },
             {
+                "id": 87,
                 "nom": "Lucky Roo",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2044,6 +2178,7 @@
                 "vivant": "living"
             },
             {
+                "id": 88,
                 "nom": "Yassop",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2058,6 +2193,7 @@
                 "vivant": "living"
             },
             {
+                "id": 89,
                 "nom": "Limejuice",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2072,6 +2208,7 @@
                 "vivant": "living"
             },
             {
+                "id": 90,
                 "nom": "Bonk Punch",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2086,6 +2223,7 @@
                 "vivant": "living"
             },
             {
+                "id": 91,
                 "nom": "Monster",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2100,6 +2238,7 @@
                 "vivant": "living"
             },
             {
+                "id": 92,
                 "nom": "Building Snake",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2114,6 +2253,7 @@
                 "vivant": "living"
             },
             {
+                "id": 93,
                 "nom": "Hongo",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2128,6 +2268,7 @@
                 "vivant": "living"
             },
             {
+                "id": 94,
                 "nom": "Howling Dab",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2142,6 +2283,7 @@
                 "vivant": "living"
             },
             {
+                "id": 95,
                 "nom": "Rockstar",
                 "job": "",
                 "force": 1000,
@@ -2154,7 +2296,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "94.000.000"
+                "prime": 94000000
             }
         ]
     },
@@ -2163,6 +2305,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 96,
                 "nom": "Charlotte Linlin / Big Mom",
                 "job": "Captain",
                 "force": 1000,
@@ -2175,9 +2318,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "4.388.000.000"
+                "prime": 4388000000
             },
             {
+                "id": 97,
                 "nom": "Charlotte Dent-de-chien",
                 "job": "General Sucré",
                 "force": 1000,
@@ -2190,9 +2334,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.057.000.000"
+                "prime": 1057000000
             },
             {
+                "id": 98,
                 "nom": "Charlotte Smoothie",
                 "job": "General Sucré",
                 "force": 1000,
@@ -2205,9 +2350,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "932.000.000"
+                "prime": 932000000
             },
             {
+                "id": 99,
                 "nom": "Charlotte Cracker",
                 "job": "General Sucré",
                 "force": 1000,
@@ -2220,9 +2366,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "860.000.000"
+                "prime": 860000000
             },
             {
+                "id": 100,
                 "nom": "Charlotte Slurp",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2235,9 +2382,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "700.000.000"
+                "prime": 700000000
             },
             {
+                "id": 101,
                 "nom": "Charlotte Daifuku",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2250,9 +2398,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "300.000.000"
+                "prime": 300000000
             },
             {
+                "id": 102,
                 "nom": "Charlotte Oven",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2265,9 +2414,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "300.000.000"
+                "prime": 300000000
             },
             {
+                "id": 103,
                 "nom": "Charlotte Amande",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2282,6 +2432,7 @@
                 "vivant": "living"
             },
             {
+                "id": 104,
                 "nom": "Charlotte Opéra",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2296,6 +2447,7 @@
                 "vivant": "living"
             },
             {
+                "id": 105,
                 "nom": "Charlotte Brûlée",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2310,6 +2462,7 @@
                 "vivant": "living"
             },
             {
+                "id": 106,
                 "nom": "Charlotte Mont d’Or",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2322,9 +2475,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "120.000.000"
+                "prime": 120000000
             },
             {
+                "id": 107,
                 "nom": "Charlotte Galette",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2339,6 +2493,7 @@
                 "vivant": "living"
             },
             {
+                "id": 108,
                 "nom": "Charlotte Snack",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2351,9 +2506,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "600.000.000"
+                "prime": 600000000
             },
             {
+                "id": 109,
                 "nom": "Charlotte Pudding",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2368,6 +2524,7 @@
                 "vivant": "living"
             },
             {
+                "id": 110,
                 "nom": "Charlotte Flampée",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -2382,6 +2539,7 @@
                 "vivant": "living"
             },
             {
+                "id": 111,
                 "nom": "Charlotte Compote",
                 "job": "Officer",
                 "force": 1000,
@@ -2396,6 +2554,7 @@
                 "vivant": "living"
             },
             {
+                "id": 112,
                 "nom": "Charlotte Mondé",
                 "job": "Officer",
                 "force": 1000,
@@ -2410,6 +2569,7 @@
                 "vivant": "living"
             },
             {
+                "id": 113,
                 "nom": "Charlotte Hachée",
                 "job": "Officer",
                 "force": 1000,
@@ -2424,6 +2584,7 @@
                 "vivant": "living"
             },
             {
+                "id": 114,
                 "nom": "Charlotte Effilée",
                 "job": "Officer",
                 "force": 1000,
@@ -2438,6 +2599,7 @@
                 "vivant": "living"
             },
             {
+                "id": 115,
                 "nom": "Charlotte Counter",
                 "job": "Officer",
                 "force": 1000,
@@ -2452,6 +2614,7 @@
                 "vivant": "living"
             },
             {
+                "id": 116,
                 "nom": "Charlotte Cadenza",
                 "job": "Officer",
                 "force": 1000,
@@ -2466,6 +2629,7 @@
                 "vivant": "living"
             },
             {
+                "id": 117,
                 "nom": "Charlotte Cabaletta",
                 "job": "Officer",
                 "force": 1000,
@@ -2480,6 +2644,7 @@
                 "vivant": "living"
             },
             {
+                "id": 118,
                 "nom": "Charlotte Gala",
                 "job": "Officer",
                 "force": 1000,
@@ -2494,6 +2659,7 @@
                 "vivant": "living"
             },
             {
+                "id": 119,
                 "nom": "Charlotte Angel",
                 "job": "Officer",
                 "force": 1000,
@@ -2508,6 +2674,7 @@
                 "vivant": "living"
             },
             {
+                "id": 120,
                 "nom": "Charlotte Crème",
                 "job": "Officer",
                 "force": 1000,
@@ -2522,6 +2689,7 @@
                 "vivant": "living"
             },
             {
+                "id": 121,
                 "nom": "Charlotte Zuccoto",
                 "job": "Officer",
                 "force": 1000,
@@ -2536,6 +2704,7 @@
                 "vivant": "living"
             },
             {
+                "id": 122,
                 "nom": "Charlotte Broyée",
                 "job": "Officer",
                 "force": 1000,
@@ -2550,6 +2719,7 @@
                 "vivant": "living"
             },
             {
+                "id": 123,
                 "nom": "Charlotte Nusstorte",
                 "job": "Officer",
                 "force": 1000,
@@ -2564,6 +2734,7 @@
                 "vivant": "living"
             },
             {
+                "id": 124,
                 "nom": "Charlotte Basskarte",
                 "job": "Officer",
                 "force": 1000,
@@ -2578,6 +2749,7 @@
                 "vivant": "living"
             },
             {
+                "id": 125,
                 "nom": "Charlotte Dosmarché",
                 "job": "Officer",
                 "force": 1000,
@@ -2592,6 +2764,7 @@
                 "vivant": "living"
             },
             {
+                "id": 126,
                 "nom": "Charlotte Noisette",
                 "job": "Officer",
                 "force": 1000,
@@ -2606,6 +2779,7 @@
                 "vivant": "living"
             },
             {
+                "id": 127,
                 "nom": "Charlotte Moscato",
                 "job": "Officer",
                 "force": 1000,
@@ -2620,6 +2794,7 @@
                 "vivant": "living"
             },
             {
+                "id": 128,
                 "nom": "Charlotte Mash",
                 "job": "Officer",
                 "force": 1000,
@@ -2634,6 +2809,7 @@
                 "vivant": "living"
             },
             {
+                "id": 129,
                 "nom": "Charlotte Corn Starch",
                 "job": "Officer",
                 "force": 1000,
@@ -2648,6 +2824,7 @@
                 "vivant": "living"
             },
             {
+                "id": 130,
                 "nom": "Charlotte Compo",
                 "job": "Officer",
                 "force": 1000,
@@ -2662,6 +2839,7 @@
                 "vivant": "living"
             },
             {
+                "id": 131,
                 "nom": "Charlotte Laurin",
                 "job": "Officer",
                 "force": 1000,
@@ -2676,6 +2854,7 @@
                 "vivant": "living"
             },
             {
+                "id": 132,
                 "nom": "Charlotte Mozart",
                 "job": "Officer",
                 "force": 1000,
@@ -2690,6 +2869,7 @@
                 "vivant": "living"
             },
             {
+                "id": 133,
                 "nom": "Charlotte Marnier",
                 "job": "Officer",
                 "force": 1000,
@@ -2704,6 +2884,7 @@
                 "vivant": "living"
             },
             {
+                "id": 134,
                 "nom": "Charlotte High-Fat",
                 "job": "Officer",
                 "force": 1000,
@@ -2718,6 +2899,7 @@
                 "vivant": "living"
             },
             {
+                "id": 135,
                 "nom": "Charlotte Tablet",
                 "job": "Officer",
                 "force": 1000,
@@ -2732,6 +2914,7 @@
                 "vivant": "living"
             },
             {
+                "id": 136,
                 "nom": "Charlotte Citron",
                 "job": "Officer",
                 "force": 1000,
@@ -2746,6 +2929,7 @@
                 "vivant": "living"
             },
             {
+                "id": 137,
                 "nom": "Charlotte Cannelle",
                 "job": "Officer",
                 "force": 1000,
@@ -2760,6 +2944,7 @@
                 "vivant": "living"
             },
             {
+                "id": 138,
                 "nom": "Charlotte Saint-Marc",
                 "job": "Officer",
                 "force": 1000,
@@ -2774,6 +2959,7 @@
                 "vivant": "living"
             },
             {
+                "id": 139,
                 "nom": "Charlotte Basans",
                 "job": "Officer",
                 "force": 1000,
@@ -2788,6 +2974,7 @@
                 "vivant": "living"
             },
             {
+                "id": 140,
                 "nom": "Charlotte Mélisée",
                 "job": "Officer",
                 "force": 1000,
@@ -2802,6 +2989,7 @@
                 "vivant": "living"
             },
             {
+                "id": 141,
                 "nom": "Charlotte Dacquoise",
                 "job": "Officer",
                 "force": 1000,
@@ -2816,6 +3004,7 @@
                 "vivant": "living"
             },
             {
+                "id": 142,
                 "nom": "Charlotte Poire",
                 "job": "Officer",
                 "force": 1000,
@@ -2830,6 +3019,7 @@
                 "vivant": "living"
             },
             {
+                "id": 143,
                 "nom": "Charlotte Bavarois",
                 "job": "Officer",
                 "force": 1000,
@@ -2844,6 +3034,7 @@
                 "vivant": "living"
             },
             {
+                "id": 144,
                 "nom": "Charlotte Prim",
                 "job": "Officer",
                 "force": 1000,
@@ -2858,6 +3049,7 @@
                 "vivant": "living"
             },
             {
+                "id": 145,
                 "nom": "Charlotte Kanten",
                 "job": "Officer",
                 "force": 1000,
@@ -2872,6 +3064,7 @@
                 "vivant": "living"
             },
             {
+                "id": 146,
                 "nom": "Charlotte Kato",
                 "job": "Officer",
                 "force": 1000,
@@ -2886,6 +3079,7 @@
                 "vivant": "living"
             },
             {
+                "id": 147,
                 "nom": "Charlotte Montb",
                 "job": "Officer",
                 "force": 1000,
@@ -2900,6 +3094,7 @@
                 "vivant": "living"
             },
             {
+                "id": 148,
                 "nom": "Charlotte Chiboust",
                 "job": "Officer",
                 "force": 1000,
@@ -2914,6 +3109,7 @@
                 "vivant": "living"
             },
             {
+                "id": 149,
                 "nom": "Charlotte Mobile",
                 "job": "Officer",
                 "force": 1000,
@@ -2928,6 +3124,7 @@
                 "vivant": "living"
             },
             {
+                "id": 150,
                 "nom": "Charlotte Marble",
                 "job": "Officer",
                 "force": 1000,
@@ -2942,6 +3139,7 @@
                 "vivant": "living"
             },
             {
+                "id": 151,
                 "nom": "Charlotte Mucre",
                 "job": "Officer",
                 "force": 1000,
@@ -2956,6 +3154,7 @@
                 "vivant": "living"
             },
             {
+                "id": 152,
                 "nom": "Charlotte Mapple",
                 "job": "Officer",
                 "force": 1000,
@@ -2970,6 +3169,7 @@
                 "vivant": "living"
             },
             {
+                "id": 153,
                 "nom": "Charlotte Brownie",
                 "job": "Officer",
                 "force": 1000,
@@ -2984,6 +3184,7 @@
                 "vivant": "living"
             },
             {
+                "id": 154,
                 "nom": "Charlotte Joconde",
                 "job": "Officer",
                 "force": 1000,
@@ -2998,6 +3199,7 @@
                 "vivant": "living"
             },
             {
+                "id": 155,
                 "nom": "Charlotte Raisin",
                 "job": "Officer",
                 "force": 1000,
@@ -3012,6 +3214,7 @@
                 "vivant": "living"
             },
             {
+                "id": 156,
                 "nom": "Charlotte Panna",
                 "job": "Officer",
                 "force": 1000,
@@ -3026,6 +3229,7 @@
                 "vivant": "living"
             },
             {
+                "id": 157,
                 "nom": "Charlotte Mascarpone",
                 "job": "Officer",
                 "force": 1000,
@@ -3040,6 +3244,7 @@
                 "vivant": "living"
             },
             {
+                "id": 158,
                 "nom": "Charlotte Joscarpone",
                 "job": "Officer",
                 "force": 1000,
@@ -3054,6 +3259,7 @@
                 "vivant": "living"
             },
             {
+                "id": 159,
                 "nom": "Charlotte Yu Yuan",
                 "job": "Officer",
                 "force": 1000,
@@ -3068,6 +3274,7 @@
                 "vivant": "living"
             },
             {
+                "id": 160,
                 "nom": "Charlotte Newichi",
                 "job": "Officer",
                 "force": 1000,
@@ -3082,6 +3289,7 @@
                 "vivant": "living"
             },
             {
+                "id": 161,
                 "nom": "Charlotte Newji",
                 "job": "Officer",
                 "force": 1000,
@@ -3096,6 +3304,7 @@
                 "vivant": "living"
             },
             {
+                "id": 162,
                 "nom": "Charlotte Newsan",
                 "job": "Officer",
                 "force": 1000,
@@ -3110,6 +3319,7 @@
                 "vivant": "living"
             },
             {
+                "id": 163,
                 "nom": "Charlotte Newshi",
                 "job": "Officer",
                 "force": 1000,
@@ -3124,6 +3334,7 @@
                 "vivant": "living"
             },
             {
+                "id": 164,
                 "nom": "Charlotte Newgo",
                 "job": "Officer",
                 "force": 1000,
@@ -3138,6 +3349,7 @@
                 "vivant": "living"
             },
             {
+                "id": 165,
                 "nom": "Charlotte Muscade",
                 "job": "Officer",
                 "force": 1000,
@@ -3152,6 +3364,7 @@
                 "vivant": "living"
             },
             {
+                "id": 166,
                 "nom": "Charlotte Muscadia",
                 "job": "Officer",
                 "force": 1000,
@@ -3166,6 +3379,7 @@
                 "vivant": "living"
             },
             {
+                "id": 167,
                 "nom": "Charlotte Muscadelle",
                 "job": "Officer",
                 "force": 1000,
@@ -3180,6 +3394,7 @@
                 "vivant": "living"
             },
             {
+                "id": 168,
                 "nom": "Charlotte Muscadine",
                 "job": "Officer",
                 "force": 1000,
@@ -3194,6 +3409,7 @@
                 "vivant": "living"
             },
             {
+                "id": 169,
                 "nom": "Charlotte Muscadette",
                 "job": "Officer",
                 "force": 1000,
@@ -3208,6 +3424,7 @@
                 "vivant": "living"
             },
             {
+                "id": 170,
                 "nom": "Charlotte Nougat",
                 "job": "Officer",
                 "force": 1000,
@@ -3222,6 +3439,7 @@
                 "vivant": "living"
             },
             {
+                "id": 171,
                 "nom": "Charlotte Anglais",
                 "job": "Officer",
                 "force": 1000,
@@ -3236,6 +3454,7 @@
                 "vivant": "living"
             },
             {
+                "id": 172,
                 "nom": "Charlotte Wafers",
                 "job": "Officer",
                 "force": 1000,
@@ -3250,6 +3469,7 @@
                 "vivant": "living"
             },
             {
+                "id": 173,
                 "nom": "Charlotte Wiro",
                 "job": "Officer",
                 "force": 1000,
@@ -3264,6 +3484,7 @@
                 "vivant": "living"
             },
             {
+                "id": 174,
                 "nom": "Charlotte De-Chat",
                 "job": "Officer",
                 "force": 1000,
@@ -3278,6 +3499,7 @@
                 "vivant": "living"
             },
             {
+                "id": 175,
                 "nom": "Charlotte Normande",
                 "job": "Officer",
                 "force": 1000,
@@ -3292,6 +3514,7 @@
                 "vivant": "living"
             },
             {
+                "id": 176,
                 "nom": "Charlotte Dolce",
                 "job": "Officer",
                 "force": 1000,
@@ -3306,6 +3529,7 @@
                 "vivant": "living"
             },
             {
+                "id": 177,
                 "nom": "Charlotte Dragée",
                 "job": "Officer",
                 "force": 1000,
@@ -3320,6 +3544,7 @@
                 "vivant": "living"
             },
             {
+                "id": 178,
                 "nom": "Charlotte Anana",
                 "job": "Officer",
                 "force": 1000,
@@ -3334,6 +3559,7 @@
                 "vivant": "living"
             },
             {
+                "id": 179,
                 "nom": "Pekoms",
                 "job": "Fighter",
                 "force": 1000,
@@ -3346,9 +3572,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "330.000.000"
+                "prime": 330000000
             },
             {
+                "id": 180,
                 "nom": "Delœuf",
                 "job": "Fighter",
                 "force": 1000,
@@ -3361,9 +3588,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "429.000.000"
+                "prime": 429000000
             },
             {
+                "id": 181,
                 "nom": "Boddin",
                 "job": "Fighter",
                 "force": 1000,
@@ -3376,9 +3604,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "155.000.000"
+                "prime": 155000000
             },
             {
+                "id": 182,
                 "nom": "Streusen",
                 "job": "Cook",
                 "force": 1000,
@@ -3393,6 +3622,7 @@
                 "vivant": "living"
             },
             {
+                "id": 183,
                 "nom": "Prométhée",
                 "job": "Homie",
                 "force": 1000,
@@ -3407,6 +3637,7 @@
                 "vivant": "living"
             },
             {
+                "id": 184,
                 "nom": "Napoléon",
                 "job": "Homie",
                 "force": 1000,
@@ -3421,6 +3652,7 @@
                 "vivant": "living"
             },
             {
+                "id": 185,
                 "nom": "Héra",
                 "job": "Homie",
                 "force": 1000,
@@ -3435,6 +3667,7 @@
                 "vivant": "living"
             },
             {
+                "id": 186,
                 "nom": "Kingbaum",
                 "job": "Homie",
                 "force": 1000,
@@ -3455,6 +3688,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 187,
                 "nom": "Kaido",
                 "job": "Captain",
                 "force": 1000,
@@ -3467,9 +3701,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "4.611.100.000"
+                "prime": 4611100000
             },
             {
+                "id": 188,
                 "nom": "King",
                 "job": "Superstar",
                 "force": 1000,
@@ -3482,9 +3717,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.390.000.000"
+                "prime": 1390000000
             },
             {
+                "id": 189,
                 "nom": "Queen",
                 "job": "Superstar",
                 "force": 1000,
@@ -3497,9 +3733,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.320.000.000"
+                "prime": 1320000000
             },
             {
+                "id": 190,
                 "nom": "Jack",
                 "job": "Superstar",
                 "force": 1000,
@@ -3512,9 +3749,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.000.000.000"
+                "prime": 1000000000
             },
             {
+                "id": 191,
                 "nom": "Page One",
                 "job": "Tobi Roppo",
                 "force": 1000,
@@ -3527,9 +3765,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "290.000.000"
+                "prime": 290000000
             },
             {
+                "id": 192,
                 "nom": "Ulti",
                 "job": "Tobi Roppo",
                 "force": 1000,
@@ -3542,9 +3781,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "400.000.000"
+                "prime": 400000000
             },
             {
+                "id": 193,
                 "nom": "Who’s Who",
                 "job": "Tobi Roppo",
                 "force": 1000,
@@ -3557,9 +3797,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "546.000.000"
+                "prime": 546000000
             },
             {
+                "id": 194,
                 "nom": "Black Maria",
                 "job": "Tobi Roppo",
                 "force": 1000,
@@ -3572,9 +3813,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "480.000.000"
+                "prime": 480000000
             },
             {
+                "id": 195,
                 "nom": "Sasaki",
                 "job": "Tobi Roppo",
                 "force": 1000,
@@ -3587,9 +3829,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "472.000.000"
+                "prime": 472000000
             },
             {
+                "id": 196,
                 "nom": "Sheep’s Head",
                 "job": "Vedette",
                 "force": 1000,
@@ -3604,6 +3847,7 @@
                 "vivant": "living"
             },
             {
+                "id": 197,
                 "nom": "Basil Hawkins",
                 "job": "Vedette",
                 "force": 1000,
@@ -3616,9 +3860,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "320.000.000"
+                "prime": 320000000
             },
             {
+                "id": 198,
                 "nom": "Holdem",
                 "job": "Vedette",
                 "force": 1000,
@@ -3633,6 +3878,7 @@
                 "vivant": "living"
             },
             {
+                "id": 199,
                 "nom": "Speed",
                 "job": "Vedette",
                 "force": 1000,
@@ -3647,6 +3893,7 @@
                 "vivant": "living"
             },
             {
+                "id": 200,
                 "nom": "Trouduc",
                 "job": "Vedette",
                 "force": 1000,
@@ -3661,6 +3908,7 @@
                 "vivant": "living"
             },
             {
+                "id": 201,
                 "nom": "Pouilleux",
                 "job": "Vedette",
                 "force": 1000,
@@ -3675,6 +3923,7 @@
                 "vivant": "living"
             },
             {
+                "id": 202,
                 "nom": "Solitaire",
                 "job": "Vedette",
                 "force": 1000,
@@ -3689,6 +3938,7 @@
                 "vivant": "living"
             },
             {
+                "id": 203,
                 "nom": "Bao Huang",
                 "job": "Vedette",
                 "force": 1000,
@@ -3703,6 +3953,7 @@
                 "vivant": "living"
             },
             {
+                "id": 204,
                 "nom": "Ginrummy",
                 "job": "Vedette",
                 "force": 1000,
@@ -3717,6 +3968,7 @@
                 "vivant": "living"
             },
             {
+                "id": 205,
                 "nom": "Plouf",
                 "job": "Vedette",
                 "force": 1000,
@@ -3731,6 +3983,7 @@
                 "vivant": "living"
             },
             {
+                "id": 206,
                 "nom": "Briscola",
                 "job": "Vedette",
                 "force": 1000,
@@ -3745,6 +3998,7 @@
                 "vivant": "living"
             },
             {
+                "id": 207,
                 "nom": "Fourtricks",
                 "job": "Vedette",
                 "force": 1000,
@@ -3759,6 +4013,7 @@
                 "vivant": "living"
             },
             {
+                "id": 208,
                 "nom": "Hamlet",
                 "job": "Vedette",
                 "force": 1000,
@@ -3773,6 +4028,7 @@
                 "vivant": "living"
             },
             {
+                "id": 209,
                 "nom": "Mizerka",
                 "job": "Vedette",
                 "force": 1000,
@@ -3787,6 +4043,7 @@
                 "vivant": "living"
             },
             {
+                "id": 210,
                 "nom": "Poker",
                 "job": "Vedette",
                 "force": 1000,
@@ -3801,6 +4058,7 @@
                 "vivant": "living"
             },
             {
+                "id": 211,
                 "nom": "Batman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3815,6 +4073,7 @@
                 "vivant": "living"
             },
             {
+                "id": 212,
                 "nom": "Gazelleman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3829,6 +4088,7 @@
                 "vivant": "living"
             },
             {
+                "id": 213,
                 "nom": "Mouseman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3843,6 +4103,7 @@
                 "vivant": "living"
             },
             {
+                "id": 214,
                 "nom": "Snakeman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3857,6 +4118,7 @@
                 "vivant": "living"
             },
             {
+                "id": 215,
                 "nom": "Rabitman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3871,6 +4133,7 @@
                 "vivant": "living"
             },
             {
+                "id": 216,
                 "nom": "Sarehebi",
                 "job": "Gifters",
                 "force": 1000,
@@ -3885,6 +4148,7 @@
                 "vivant": "living"
             },
             {
+                "id": 217,
                 "nom": "Alpagaman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3899,6 +4163,7 @@
                 "vivant": "living"
             },
             {
+                "id": 218,
                 "nom": "Tatouman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3913,6 +4178,7 @@
                 "vivant": "living"
             },
             {
+                "id": 219,
                 "nom": "Dachoman",
                 "job": "Gifters",
                 "force": 1000,
@@ -3927,6 +4193,7 @@
                 "vivant": "living"
             },
             {
+                "id": 220,
                 "nom": "Tenjo-Sagari",
                 "job": "Gifters",
                 "force": 1000,
@@ -3941,6 +4208,7 @@
                 "vivant": "living"
             },
             {
+                "id": 221,
                 "nom": "Caimanlady",
                 "job": "Gifters",
                 "force": 1000,
@@ -3955,6 +4223,7 @@
                 "vivant": "living"
             },
             {
+                "id": 222,
                 "nom": "Nuré-Onna",
                 "job": "Gifters",
                 "force": 1000,
@@ -3969,6 +4238,7 @@
                 "vivant": "living"
             },
             {
+                "id": 223,
                 "nom": "Wa-Nyudo",
                 "job": "Gifters",
                 "force": 1000,
@@ -3983,6 +4253,7 @@
                 "vivant": "living"
             },
             {
+                "id": 224,
                 "nom": "Inbi",
                 "job": "Numbers",
                 "force": 1000,
@@ -3997,6 +4268,7 @@
                 "vivant": "living"
             },
             {
+                "id": 225,
                 "nom": "Fuga",
                 "job": "Numbers",
                 "force": 1000,
@@ -4011,6 +4283,7 @@
                 "vivant": "living"
             },
             {
+                "id": 226,
                 "nom": "Zanki",
                 "job": "Numbers",
                 "force": 1000,
@@ -4025,6 +4298,7 @@
                 "vivant": "living"
             },
             {
+                "id": 227,
                 "nom": "Jaki",
                 "job": "Numbers",
                 "force": 1000,
@@ -4039,6 +4313,7 @@
                 "vivant": "living"
             },
             {
+                "id": 228,
                 "nom": "Goki",
                 "job": "Numbers",
                 "force": 1000,
@@ -4053,6 +4328,7 @@
                 "vivant": "living"
             },
             {
+                "id": 229,
                 "nom": "Rokki",
                 "job": "Numbers",
                 "force": 1000,
@@ -4067,6 +4343,7 @@
                 "vivant": "living"
             },
             {
+                "id": 230,
                 "nom": "Nangi",
                 "job": "Numbers",
                 "force": 1000,
@@ -4081,6 +4358,7 @@
                 "vivant": "living"
             },
             {
+                "id": 231,
                 "nom": "Hacha",
                 "job": "Numbers",
                 "force": 1000,
@@ -4095,6 +4373,7 @@
                 "vivant": "living"
             },
             {
+                "id": 232,
                 "nom": "Kunyun",
                 "job": "Numbers",
                 "force": 1000,
@@ -4109,6 +4388,7 @@
                 "vivant": "living"
             },
             {
+                "id": 233,
                 "nom": "Juki",
                 "job": "Numbers",
                 "force": 1000,
@@ -4123,6 +4403,7 @@
                 "vivant": "living"
             },
             {
+                "id": 234,
                 "nom": "Fukurokuju",
                 "job": "",
                 "force": 1000,
@@ -4137,6 +4418,7 @@
                 "vivant": "living"
             },
             {
+                "id": 235,
                 "nom": "Daikoku",
                 "job": "Samurai",
                 "force": 1000,
@@ -4151,6 +4433,7 @@
                 "vivant": "living"
             },
             {
+                "id": 236,
                 "nom": "Hanzo",
                 "job": "Samurai",
                 "force": 1000,
@@ -4165,6 +4448,7 @@
                 "vivant": "living"
             },
             {
+                "id": 237,
                 "nom": "Sarutobi",
                 "job": "Samurai",
                 "force": 1000,
@@ -4179,6 +4463,7 @@
                 "vivant": "living"
             },
             {
+                "id": 238,
                 "nom": "Kazekage",
                 "job": "Samurai",
                 "force": 1000,
@@ -4193,6 +4478,7 @@
                 "vivant": "living"
             },
             {
+                "id": 239,
                 "nom": "Jigoku Benten",
                 "job": "Samurai",
                 "force": 1000,
@@ -4207,6 +4493,7 @@
                 "vivant": "living"
             },
             {
+                "id": 240,
                 "nom": "Fujin",
                 "job": "Samurai",
                 "force": 1000,
@@ -4221,6 +4508,7 @@
                 "vivant": "living"
             },
             {
+                "id": 241,
                 "nom": "Raijin",
                 "job": "Samurai",
                 "force": 1000,
@@ -4235,6 +4523,7 @@
                 "vivant": "living"
             },
             {
+                "id": 242,
                 "nom": "Bishamon",
                 "job": "Samurai",
                 "force": 1000,
@@ -4249,6 +4538,7 @@
                 "vivant": "living"
             },
             {
+                "id": 243,
                 "nom": "Tohomé",
                 "job": "Samurai",
                 "force": 1000,
@@ -4263,6 +4553,7 @@
                 "vivant": "living"
             },
             {
+                "id": 244,
                 "nom": "Yazaémon",
                 "job": "Samurai",
                 "force": 1000,
@@ -4277,6 +4568,7 @@
                 "vivant": "living"
             },
             {
+                "id": 245,
                 "nom": "Hotei",
                 "job": "Samurai",
                 "force": 1000,
@@ -4291,6 +4583,7 @@
                 "vivant": "living"
             },
             {
+                "id": 246,
                 "nom": "Scratchmen Apoo",
                 "job": "Informer",
                 "force": 1000,
@@ -4311,6 +4604,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 247,
                 "nom": "Marchall D. Teach / Barbe Noire",
                 "job": "Pirate",
                 "force": 1000,
@@ -4323,9 +4617,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "2.247.600.000"
+                "prime": 2247600000
             },
             {
+                "id": 248,
                 "nom": "Jesus Burgess",
                 "job": "Admiral ship's captain",
                 "force": 1000,
@@ -4338,9 +4633,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "20.000.000"
+                "prime": 20000000
             },
             {
+                "id": 249,
                 "nom": "Shiliew",
                 "job": "Commander 2nd Ship",
                 "force": 1000,
@@ -4355,6 +4651,7 @@
                 "vivant": "living"
             },
             {
+                "id": 250,
                 "nom": "Van Auger",
                 "job": "Commander 3rd Ship",
                 "force": 1000,
@@ -4367,9 +4664,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "64.000.000"
+                "prime": 64000000
             },
             {
+                "id": 251,
                 "nom": "Avalo Pizarro",
                 "job": "Commander 4th Ship",
                 "force": 1000,
@@ -4384,6 +4682,7 @@
                 "vivant": "living"
             },
             {
+                "id": 252,
                 "nom": "Lafitte",
                 "job": "Commander 5th Ship",
                 "force": 1000,
@@ -4396,9 +4695,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "42.200.000"
+                "prime": 42200000
             },
             {
+                "id": 253,
                 "nom": "Catarina Devon",
                 "job": "Commander 6th Ship",
                 "force": 1000,
@@ -4413,6 +4713,7 @@
                 "vivant": "living"
             },
             {
+                "id": 254,
                 "nom": "Sanjuan Wolf",
                 "job": "Commander 7th Ship",
                 "force": 1000,
@@ -4427,6 +4728,7 @@
                 "vivant": "living"
             },
             {
+                "id": 255,
                 "nom": "Vasco Shot",
                 "job": "Commander 8th Ship",
                 "force": 1000,
@@ -4441,6 +4743,7 @@
                 "vivant": "living"
             },
             {
+                "id": 256,
                 "nom": "Doc Q",
                 "job": "Commander 9th Ship",
                 "force": 1000,
@@ -4453,9 +4756,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "72.000.000"
+                "prime": 72000000
             },
             {
+                "id": 257,
                 "nom": "Barbe Rose",
                 "job": "",
                 "force": 1000,
@@ -4468,9 +4772,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "52.000.000"
+                "prime": 52000000
             },
             {
+                "id": 762,
                 "nom": "Stronger",
                 "job": "Doc Q's horse",
                 "force": 1000,
@@ -4491,6 +4796,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 258,
                 "nom": "Gol D. Roger",
                 "job": "Captain",
                 "force": 1000,
@@ -4503,9 +4809,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "5.564.800.000"
+                "prime": 5564800000
             },
             {
+                "id": 259,
                 "nom": "Silvers Rayleigh",
                 "job": "Right-hand man",
                 "force": 1000,
@@ -4520,6 +4827,7 @@
                 "vivant": "living"
             },
             {
+                "id": 260,
                 "nom": "Scopper Gaban",
                 "job": "Carpenter",
                 "force": 1000,
@@ -4534,6 +4842,7 @@
                 "vivant": "living"
             },
             {
+                "id": 261,
                 "nom": "Seagull Guns Nozdon",
                 "job": "",
                 "force": 1000,
@@ -4548,6 +4857,7 @@
                 "vivant": "living"
             },
             {
+                "id": 262,
                 "nom": "Taro",
                 "job": "",
                 "force": 1000,
@@ -4562,6 +4872,7 @@
                 "vivant": "living"
             },
             {
+                "id": 263,
                 "nom": "Dringo",
                 "job": "",
                 "force": 1000,
@@ -4576,6 +4887,7 @@
                 "vivant": "living"
             },
             {
+                "id": 264,
                 "nom": "Sanjuan Wolf",
                 "job": "",
                 "force": 1000,
@@ -4590,6 +4902,7 @@
                 "vivant": "living"
             },
             {
+                "id": 265,
                 "nom": "Millet Pine",
                 "job": "",
                 "force": 1000,
@@ -4604,6 +4917,7 @@
                 "vivant": "living"
             },
             {
+                "id": 266,
                 "nom": "Ganryu",
                 "job": "",
                 "force": 1000,
@@ -4618,6 +4932,7 @@
                 "vivant": "living"
             },
             {
+                "id": 267,
                 "nom": "CB Galant",
                 "job": "",
                 "force": 1000,
@@ -4632,6 +4947,7 @@
                 "vivant": "living"
             },
             {
+                "id": 268,
                 "nom": "Donquino",
                 "job": "",
                 "force": 1000,
@@ -4646,6 +4962,7 @@
                 "vivant": "living"
             },
             {
+                "id": 269,
                 "nom": "Mr Momora",
                 "job": "",
                 "force": 1000,
@@ -4660,6 +4977,7 @@
                 "vivant": "living"
             },
             {
+                "id": 270,
                 "nom": "Moon Isaac Jr.",
                 "job": "",
                 "force": 1000,
@@ -4674,6 +4992,7 @@
                 "vivant": "living"
             },
             {
+                "id": 271,
                 "nom": "Yui",
                 "job": "",
                 "force": 1000,
@@ -4688,6 +5007,7 @@
                 "vivant": "living"
             },
             {
+                "id": 272,
                 "nom": "Rangram",
                 "job": "",
                 "force": 1000,
@@ -4702,6 +5022,7 @@
                 "vivant": "living"
             },
             {
+                "id": 273,
                 "nom": "Colonel Mugren",
                 "job": "",
                 "force": 1000,
@@ -4716,6 +5037,7 @@
                 "vivant": "living"
             },
             {
+                "id": 274,
                 "nom": "Max Marks",
                 "job": "",
                 "force": 1000,
@@ -4730,6 +5052,7 @@
                 "vivant": "living"
             },
             {
+                "id": 275,
                 "nom": "Spencer",
                 "job": "",
                 "force": 1000,
@@ -4744,6 +5067,7 @@
                 "vivant": "living"
             },
             {
+                "id": 276,
                 "nom": "Bankro",
                 "job": "",
                 "force": 1000,
@@ -4758,6 +5082,7 @@
                 "vivant": "living"
             },
             {
+                "id": 277,
                 "nom": "Blumarine",
                 "job": "",
                 "force": 1000,
@@ -4772,6 +5097,7 @@
                 "vivant": "living"
             },
             {
+                "id": 278,
                 "nom": "Elio",
                 "job": "",
                 "force": 1000,
@@ -4786,6 +5112,7 @@
                 "vivant": "living"
             },
             {
+                "id": 279,
                 "nom": "Rowing",
                 "job": "",
                 "force": 1000,
@@ -4800,6 +5127,7 @@
                 "vivant": "living"
             },
             {
+                "id": 280,
                 "nom": "Jacsonbaner",
                 "job": "",
                 "force": 1000,
@@ -4814,6 +5142,7 @@
                 "vivant": "living"
             },
             {
+                "id": 281,
                 "nom": "Yamon",
                 "job": "",
                 "force": 1000,
@@ -4834,6 +5163,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 282,
                 "nom": "Arlong",
                 "job": "Captain",
                 "force": 1000,
@@ -4846,9 +5176,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "20.000.000"
+                "prime": 20000000
             },
             {
+                "id": 283,
                 "nom": "Kuroobi",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -4861,9 +5192,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "9.000.000"
+                "prime": 9000000
             },
             {
+                "id": 284,
                 "nom": "Smack",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -4876,7 +5208,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "5.500.000"
+                "prime": 5500000
             }
         ]
     },
@@ -4885,6 +5217,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 285,
                 "nom": "Yorki",
                 "job": "Captain",
                 "force": 1000,
@@ -4899,6 +5232,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 286,
                 "nom": "Madaisky Mizuta",
                 "job": "",
                 "force": 1000,
@@ -4913,6 +5247,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 287,
                 "nom": "Mawaritovsky Mizuta",
                 "job": "",
                 "force": 1000,
@@ -4933,6 +5268,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 288,
                 "nom": "Sarquiss",
                 "job": "",
                 "force": 1000,
@@ -4945,7 +5281,7 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "38.000.000"
+                "prime": 38000000
             }
         ]
     },
@@ -4954,6 +5290,7 @@
         "yonko": true,
         "membres": [
             {
+                "id": 289,
                 "nom": "Edward Newgate / Barbe Blanche",
                 "job": "Captain",
                 "force": 1000,
@@ -4966,9 +5303,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "5.046.000.000"
+                "prime": 5046000000
             },
             {
+                "id": 290,
                 "nom": "Portgas D. Ace",
                 "job": "Commander 2nd Ship",
                 "force": 1000,
@@ -4981,9 +5319,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "550.000.000"
+                "prime": 550000000
             },
             {
+                "id": 291,
                 "nom": "Diamond Joz",
                 "job": "Commander 3rd Ship",
                 "force": 1000,
@@ -4998,6 +5337,7 @@
                 "vivant": "living"
             },
             {
+                "id": 292,
                 "nom": "Thatch",
                 "job": "Commander 4th Ship",
                 "force": 1000,
@@ -5012,6 +5352,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 293,
                 "nom": "Vista",
                 "job": "Commander 5th Ship",
                 "force": 1000,
@@ -5026,6 +5367,7 @@
                 "vivant": "living"
             },
             {
+                "id": 294,
                 "nom": "Blamenco",
                 "job": "Commander 6th Ship",
                 "force": 1000,
@@ -5040,6 +5382,7 @@
                 "vivant": "living"
             },
             {
+                "id": 295,
                 "nom": "Rakuyo",
                 "job": "Commander 7th Ship",
                 "force": 1000,
@@ -5054,6 +5397,7 @@
                 "vivant": "living"
             },
             {
+                "id": 296,
                 "nom": "Blenheim",
                 "job": "Commander 9th Ship",
                 "force": 1000,
@@ -5068,6 +5412,7 @@
                 "vivant": "living"
             },
             {
+                "id": 297,
                 "nom": "Curiel",
                 "job": "Commander 10th Ship",
                 "force": 1000,
@@ -5082,6 +5427,7 @@
                 "vivant": "living"
             },
             {
+                "id": 298,
                 "nom": "Kingdew",
                 "job": "Commander 11th Ship",
                 "force": 1000,
@@ -5096,6 +5442,7 @@
                 "vivant": "living"
             },
             {
+                "id": 299,
                 "nom": "Haruta",
                 "job": "Commander 12th Ship",
                 "force": 1000,
@@ -5110,6 +5457,7 @@
                 "vivant": "living"
             },
             {
+                "id": 300,
                 "nom": "Atmos",
                 "job": "Commander 13th Ship",
                 "force": 1000,
@@ -5124,6 +5472,7 @@
                 "vivant": "living"
             },
             {
+                "id": 301,
                 "nom": "Speed Jill",
                 "job": "Commander 14th Ship",
                 "force": 1000,
@@ -5138,6 +5487,7 @@
                 "vivant": "living"
             },
             {
+                "id": 302,
                 "nom": "Fossa",
                 "job": "Commander 15th Ship",
                 "force": 1000,
@@ -5152,6 +5502,7 @@
                 "vivant": "living"
             },
             {
+                "id": 303,
                 "nom": "Izou",
                 "job": "Commander 16th Ship",
                 "force": 1000,
@@ -5166,6 +5517,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 304,
                 "nom": "Doma",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5180,6 +5532,7 @@
                 "vivant": "living"
             },
             {
+                "id": 305,
                 "nom": "Frères DeCalvan",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5194,6 +5547,7 @@
                 "vivant": "living"
             },
             {
+                "id": 306,
                 "nom": "Squardo",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5206,9 +5560,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "210.000.000"
+                "prime": 210000000
             },
             {
+                "id": 307,
                 "nom": "Whitey Bay",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5223,6 +5578,7 @@
                 "vivant": "living"
             },
             {
+                "id": 308,
                 "nom": "Little Oz Junior",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5235,9 +5591,10 @@
                 },
                 "pv": 2000,
                 "vivant": "unknown",
-                "prime": "550.000.000"
+                "prime": 550000000
             },
             {
+                "id": 309,
                 "nom": "Mc Guy",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5252,6 +5609,7 @@
                 "vivant": "living"
             },
             {
+                "id": 310,
                 "nom": "A.O",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5266,6 +5624,7 @@
                 "vivant": "living"
             },
             {
+                "id": 311,
                 "nom": "Karma",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5280,6 +5639,7 @@
                 "vivant": "living"
             },
             {
+                "id": 312,
                 "nom": "Elmy",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5294,6 +5654,7 @@
                 "vivant": "living"
             },
             {
+                "id": 313,
                 "nom": "Ramba",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5308,6 +5669,7 @@
                 "vivant": "living"
             },
             {
+                "id": 314,
                 "nom": "Delacuaji",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5322,6 +5684,7 @@
                 "vivant": "living"
             },
             {
+                "id": 315,
                 "nom": "Zodia",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5336,6 +5699,7 @@
                 "vivant": "living"
             },
             {
+                "id": 316,
                 "nom": "Palms",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5350,6 +5714,7 @@
                 "vivant": "living"
             },
             {
+                "id": 317,
                 "nom": "Bizarre",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5364,6 +5729,7 @@
                 "vivant": "living"
             },
             {
+                "id": 318,
                 "nom": "Pavlik",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5378,6 +5744,7 @@
                 "vivant": "living"
             },
             {
+                "id": 319,
                 "nom": "Vitan",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5392,6 +5759,7 @@
                 "vivant": "living"
             },
             {
+                "id": 320,
                 "nom": "Islewan",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5406,6 +5774,7 @@
                 "vivant": "living"
             },
             {
+                "id": 321,
                 "nom": "Epoida",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5420,6 +5789,7 @@
                 "vivant": "living"
             },
             {
+                "id": 322,
                 "nom": "Kechatch",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5434,6 +5804,7 @@
                 "vivant": "living"
             },
             {
+                "id": 323,
                 "nom": "Choi",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5448,6 +5819,7 @@
                 "vivant": "living"
             },
             {
+                "id": 324,
                 "nom": "Arhur",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5462,6 +5834,7 @@
                 "vivant": "living"
             },
             {
+                "id": 325,
                 "nom": "Hangan",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5476,6 +5849,7 @@
                 "vivant": "living"
             },
             {
+                "id": 326,
                 "nom": "Reforte",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5490,6 +5864,7 @@
                 "vivant": "living"
             },
             {
+                "id": 327,
                 "nom": "Andre",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5504,6 +5879,7 @@
                 "vivant": "living"
             },
             {
+                "id": 328,
                 "nom": "Ninth",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5518,6 +5894,7 @@
                 "vivant": "living"
             },
             {
+                "id": 329,
                 "nom": "Blondie",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5532,6 +5909,7 @@
                 "vivant": "living"
             },
             {
+                "id": 330,
                 "nom": "Nosgarl",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5546,6 +5924,7 @@
                 "vivant": "living"
             },
             {
+                "id": 331,
                 "nom": "Amadob",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5560,6 +5939,7 @@
                 "vivant": "living"
             },
             {
+                "id": 332,
                 "nom": "Baggaley",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5574,6 +5954,7 @@
                 "vivant": "living"
             },
             {
+                "id": 333,
                 "nom": "Wakkem",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5588,6 +5969,7 @@
                 "vivant": "living"
             },
             {
+                "id": 334,
                 "nom": "Brew",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5602,6 +5984,7 @@
                 "vivant": "living"
             },
             {
+                "id": 335,
                 "nom": "Brocca",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5616,6 +5999,7 @@
                 "vivant": "living"
             },
             {
+                "id": 336,
                 "nom": "Rush",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5630,6 +6014,7 @@
                 "vivant": "living"
             },
             {
+                "id": 337,
                 "nom": "Great Micheal",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5644,6 +6029,7 @@
                 "vivant": "living"
             },
             {
+                "id": 338,
                 "nom": "Zucca",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5658,6 +6044,7 @@
                 "vivant": "living"
             },
             {
+                "id": 339,
                 "nom": "Cands",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5672,6 +6059,7 @@
                 "vivant": "living"
             },
             {
+                "id": 340,
                 "nom": "Kinga",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5686,6 +6074,7 @@
                 "vivant": "living"
             },
             {
+                "id": 341,
                 "nom": "Colscon",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5700,6 +6089,7 @@
                 "vivant": "living"
             },
             {
+                "id": 342,
                 "nom": "Agsilly",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5714,6 +6104,7 @@
                 "vivant": "living"
             },
             {
+                "id": 343,
                 "nom": "Julius",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5728,6 +6119,7 @@
                 "vivant": "living"
             },
             {
+                "id": 344,
                 "nom": "Happygun",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5742,6 +6134,7 @@
                 "vivant": "living"
             },
             {
+                "id": 345,
                 "nom": "Sleepy",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5756,6 +6149,7 @@
                 "vivant": "living"
             },
             {
+                "id": 346,
                 "nom": "Forliewbs",
                 "job": "Subordinate",
                 "force": 1000,
@@ -5776,6 +6170,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 347,
                 "nom": "Barbos Bruneriguez / Barbe Brune",
                 "job": "Captain",
                 "force": 1000,
@@ -5788,7 +6183,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "80.060.000"
+                "prime": 80060000
             }
         ]
     },
@@ -5797,6 +6192,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 348,
                 "nom": "Bluejam",
                 "job": "Captain",
                 "force": 1000,
@@ -5809,9 +6205,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "14.300.000"
+                "prime": 14300000
             },
             {
+                "id": 349,
                 "nom": "Porchemy",
                 "job": "",
                 "force": 1000,
@@ -5824,7 +6221,7 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "3.400.000"
+                "prime": 3400000
             }
         ]
     },
@@ -5833,6 +6230,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 350,
                 "nom": "Demaro Black",
                 "job": "Captain",
                 "force": 1000,
@@ -5845,9 +6243,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "26.000.000"
+                "prime": 26000000
             },
             {
+                "id": 351,
                 "nom": "Manjaro",
                 "job": "",
                 "force": 1000,
@@ -5862,6 +6261,7 @@
                 "vivant": "living"
             },
             {
+                "id": 352,
                 "nom": "Chocolat",
                 "job": "",
                 "force": 1000,
@@ -5876,6 +6276,7 @@
                 "vivant": "living"
             },
             {
+                "id": 353,
                 "nom": "Mounblutain",
                 "job": "",
                 "force": 1000,
@@ -5890,6 +6291,7 @@
                 "vivant": "living"
             },
             {
+                "id": 354,
                 "nom": "Drip",
                 "job": "",
                 "force": 1000,
@@ -5904,6 +6306,7 @@
                 "vivant": "living"
             },
             {
+                "id": 355,
                 "nom": "Nora Gitsune",
                 "job": "",
                 "force": 1000,
@@ -5918,6 +6321,7 @@
                 "vivant": "living"
             },
             {
+                "id": 356,
                 "nom": "Cocoa",
                 "job": "",
                 "force": 1000,
@@ -5932,6 +6336,7 @@
                 "vivant": "living"
             },
             {
+                "id": 357,
                 "nom": "Turco",
                 "job": "",
                 "force": 1000,
@@ -5952,6 +6357,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 358,
                 "nom": "Hody Jones",
                 "job": "Captain",
                 "force": 1000,
@@ -5966,6 +6372,7 @@
                 "vivant": "living"
             },
             {
+                "id": 359,
                 "nom": "Dosun",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -5980,6 +6387,7 @@
                 "vivant": "living"
             },
             {
+                "id": 360,
                 "nom": "Zeo",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -5994,6 +6402,7 @@
                 "vivant": "living"
             },
             {
+                "id": 361,
                 "nom": "Daruma",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -6008,6 +6417,7 @@
                 "vivant": "living"
             },
             {
+                "id": 362,
                 "nom": "Ikaros Much",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -6022,6 +6432,7 @@
                 "vivant": "living"
             },
             {
+                "id": 363,
                 "nom": "Hyozo",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -6042,6 +6453,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 364,
                 "nom": "Vander Decken IX",
                 "job": "Captain",
                 "force": 1000,
@@ -6062,6 +6474,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 365,
                 "nom": "Don Quijote Doflamingo",
                 "job": "Captain",
                 "force": 1000,
@@ -6074,9 +6487,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "340.000.000"
+                "prime": 340000000
             },
             {
+                "id": 366,
                 "nom": "Trébol",
                 "job": "Lieutenant-Chef",
                 "force": 1000,
@@ -6089,9 +6503,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "99.000.000"
+                "prime": 99000000
             },
             {
+                "id": 367,
                 "nom": "Diamante",
                 "job": "Lieutenant-Chef",
                 "force": 1000,
@@ -6104,9 +6519,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "99.000.000"
+                "prime": 99000000
             },
             {
+                "id": 368,
                 "nom": "Pica",
                 "job": "Lieutenant-Chef",
                 "force": 1000,
@@ -6119,9 +6535,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "99.000.000"
+                "prime": 99000000
             },
             {
+                "id": 369,
                 "nom": "Vergo",
                 "job": "Lieutenant-Chef",
                 "force": 1000,
@@ -6136,6 +6553,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 370,
                 "nom": "Sugar",
                 "job": "Lieutenant of the Trebol Army",
                 "force": 1000,
@@ -6150,6 +6568,7 @@
                 "vivant": "living"
             },
             {
+                "id": 371,
                 "nom": "Jora",
                 "job": "Lieutenant of the Trebol Army",
                 "force": 1000,
@@ -6164,6 +6583,7 @@
                 "vivant": "living"
             },
             {
+                "id": 372,
                 "nom": "Lao G",
                 "job": "Lieutenant of the Army of Diamante",
                 "force": 1000,
@@ -6176,9 +6596,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "61.000.000"
+                "prime": 61000000
             },
             {
+                "id": 373,
                 "nom": "Señor Pink",
                 "job": "Lieutenant of the Army of Diamante",
                 "force": 1000,
@@ -6191,9 +6612,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "58.000.000"
+                "prime": 58000000
             },
             {
+                "id": 374,
                 "nom": "Machvise",
                 "job": "Lieutenant of the Army of Diamante",
                 "force": 1000,
@@ -6206,9 +6628,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "11.000.000"
+                "prime": 11000000
             },
             {
+                "id": 375,
                 "nom": "Dellinger",
                 "job": "Lieutenant of the Army of Diamante",
                 "force": 1000,
@@ -6221,9 +6644,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "15.0000.000"
+                "prime": 150000000
             },
             {
+                "id": 376,
                 "nom": "Gladius",
                 "job": "Pica Army Lieutenant",
                 "force": 1000,
@@ -6236,9 +6660,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "31.000.000"
+                "prime": 31000000
             },
             {
+                "id": 377,
                 "nom": "Buffallo",
                 "job": "Pica Army Lieutenant",
                 "force": 1000,
@@ -6253,6 +6678,7 @@
                 "vivant": "living"
             },
             {
+                "id": 378,
                 "nom": "Monet",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -6267,6 +6693,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 689,
                 "nom": "Bellamy",
                 "job": "Private",
                 "force": 1000,
@@ -6279,7 +6706,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "195.000.000"
+                "prime": 195000000
             }
         ]
     },
@@ -6288,6 +6715,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 379,
                 "nom": "Rocks D. Xebec",
                 "job": "Captain",
                 "force": 1000,
@@ -6308,6 +6736,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 380,
                 "nom": "Im Sama",
                 "job": "Manager",
                 "force": 1000,
@@ -6322,6 +6751,7 @@
                 "vivant": "living"
             },
             {
+                "id": 381,
                 "nom": "1er Doyen",
                 "job": "Council of Five Deans",
                 "force": 1000,
@@ -6336,6 +6766,7 @@
                 "vivant": "living"
             },
             {
+                "id": 382,
                 "nom": "2e Doyen",
                 "job": "Council of Five Deans",
                 "force": 1000,
@@ -6350,6 +6781,7 @@
                 "vivant": "living"
             },
             {
+                "id": 383,
                 "nom": "3e Doyen",
                 "job": "Council of Five Deans",
                 "force": 1000,
@@ -6364,6 +6796,7 @@
                 "vivant": "living"
             },
             {
+                "id": 384,
                 "nom": "4e Doyen",
                 "job": "Council of Five Deans",
                 "force": 1000,
@@ -6378,6 +6811,7 @@
                 "vivant": "living"
             },
             {
+                "id": 385,
                 "nom": "5e Doyen",
                 "job": "Council of Five Deans",
                 "force": 1000,
@@ -6398,6 +6832,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 386,
                 "nom": "Roswald",
                 "job": "",
                 "force": 1000,
@@ -6412,6 +6847,7 @@
                 "vivant": "living"
             },
             {
+                "id": 387,
                 "nom": "Charloss",
                 "job": "",
                 "force": 1000,
@@ -6426,6 +6862,7 @@
                 "vivant": "living"
             },
             {
+                "id": 388,
                 "nom": "Sharlia",
                 "job": "",
                 "force": 1000,
@@ -6440,6 +6877,7 @@
                 "vivant": "living"
             },
             {
+                "id": 389,
                 "nom": "Don Quijote Myosgard",
                 "job": "",
                 "force": 1000,
@@ -6454,6 +6892,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 390,
                 "nom": "Jalmack",
                 "job": "",
                 "force": 1000,
@@ -6468,6 +6907,7 @@
                 "vivant": "living"
             },
             {
+                "id": 498,
                 "nom": "Don Quijote Homing",
                 "job": "",
                 "force": 1000,
@@ -6488,6 +6928,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 391,
                 "nom": "Guernica",
                 "job": "",
                 "force": 1000,
@@ -6502,6 +6943,7 @@
                 "vivant": "unknown"
             },
             {
+                "id": 392,
                 "nom": "Rob Lucci",
                 "job": "",
                 "force": 1000,
@@ -6516,6 +6958,7 @@
                 "vivant": "living"
             },
             {
+                "id": 393,
                 "nom": "Hittori",
                 "job": "",
                 "force": 1000,
@@ -6530,6 +6973,7 @@
                 "vivant": "living"
             },
             {
+                "id": 394,
                 "nom": "Spandam",
                 "job": "",
                 "force": 1000,
@@ -6544,6 +6988,7 @@
                 "vivant": "living"
             },
             {
+                "id": 395,
                 "nom": "Funckfreed",
                 "job": "",
                 "force": 1000,
@@ -6558,6 +7003,7 @@
                 "vivant": "living"
             },
             {
+                "id": 396,
                 "nom": "Kaku",
                 "job": "",
                 "force": 1000,
@@ -6572,6 +7018,7 @@
                 "vivant": "living"
             },
             {
+                "id": 397,
                 "nom": "Stussy",
                 "job": "Spy",
                 "force": 1000,
@@ -6586,6 +7033,7 @@
                 "vivant": "living"
             },
             {
+                "id": 398,
                 "nom": "Maha",
                 "job": "",
                 "force": 1000,
@@ -6600,6 +7048,7 @@
                 "vivant": "living"
             },
             {
+                "id": 399,
                 "nom": "Jerry",
                 "job": "",
                 "force": 1000,
@@ -6614,6 +7063,7 @@
                 "vivant": "living"
             },
             {
+                "id": 400,
                 "nom": "Wanzé",
                 "job": "",
                 "force": 1000,
@@ -6634,6 +7084,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 401,
                 "nom": "Bas",
                 "job": "",
                 "force": 1000,
@@ -6648,6 +7099,7 @@
                 "vivant": "living"
             },
             {
+                "id": 402,
                 "nom": "And",
                 "job": "",
                 "force": 1000,
@@ -6662,6 +7114,7 @@
                 "vivant": "living"
             },
             {
+                "id": 403,
                 "nom": "Kerville",
                 "job": "",
                 "force": 1000,
@@ -6682,6 +7135,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 404,
                 "nom": "Hannyabal",
                 "job": "director",
                 "force": 1000,
@@ -6696,6 +7150,7 @@
                 "vivant": "living"
             },
             {
+                "id": 405,
                 "nom": "Magellan",
                 "job": "vice-president",
                 "force": 1000,
@@ -6710,6 +7165,7 @@
                 "vivant": "living"
             },
             {
+                "id": 406,
                 "nom": "Domino",
                 "job": "Head guard",
                 "force": 1000,
@@ -6724,6 +7180,7 @@
                 "vivant": "living"
             },
             {
+                "id": 407,
                 "nom": "Saldeath",
                 "job": "Chief of guards",
                 "force": 1000,
@@ -6738,6 +7195,7 @@
                 "vivant": "living"
             },
             {
+                "id": 408,
                 "nom": "Sadi",
                 "job": "Chief of the demonic guard",
                 "force": 1000,
@@ -6752,6 +7210,7 @@
                 "vivant": "living"
             },
             {
+                "id": 409,
                 "nom": "Minotaure",
                 "job": "Bestial Guard",
                 "force": 1000,
@@ -6766,6 +7225,7 @@
                 "vivant": "living"
             },
             {
+                "id": 410,
                 "nom": "Minokoala",
                 "job": "Bestial Guard",
                 "force": 1000,
@@ -6780,6 +7240,7 @@
                 "vivant": "living"
             },
             {
+                "id": 411,
                 "nom": "Minorhinocéros",
                 "job": "Bestial Guard",
                 "force": 1000,
@@ -6794,6 +7255,7 @@
                 "vivant": "living"
             },
             {
+                "id": 412,
                 "nom": "Minozèbre",
                 "job": "Bestial Guard",
                 "force": 1000,
@@ -6808,6 +7270,7 @@
                 "vivant": "living"
             },
             {
+                "id": 413,
                 "nom": "Minochihuabua",
                 "job": "Bestial Guard",
                 "force": 1000,
@@ -6828,6 +7291,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 414,
                 "nom": "Sakazuki / Akainu",
                 "job": "Chief Admiral",
                 "force": 1000,
@@ -6842,6 +7306,7 @@
                 "vivant": "living"
             },
             {
+                "id": 415,
                 "nom": "Borsalino / Kizaru",
                 "job": "Admiral",
                 "force": 1000,
@@ -6856,6 +7321,7 @@
                 "vivant": "living"
             },
             {
+                "id": 416,
                 "nom": "Issho / Fujitora",
                 "job": "Admiral",
                 "force": 1000,
@@ -6870,6 +7336,7 @@
                 "vivant": "living"
             },
             {
+                "id": 417,
                 "nom": "Aramaki / Ryokugyu",
                 "job": "Admiral",
                 "force": 1000,
@@ -6884,6 +7351,7 @@
                 "vivant": "living"
             },
             {
+                "id": 418,
                 "nom": "Monkey D. Garp",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6898,6 +7366,7 @@
                 "vivant": "living"
             },
             {
+                "id": 419,
                 "nom": "Tsuru",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6912,6 +7381,7 @@
                 "vivant": "living"
             },
             {
+                "id": 420,
                 "nom": "John Giant",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6926,6 +7396,7 @@
                 "vivant": "living"
             },
             {
+                "id": 421,
                 "nom": "Comir",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6940,6 +7411,7 @@
                 "vivant": "living"
             },
             {
+                "id": 422,
                 "nom": "Momonga",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6954,6 +7426,7 @@
                 "vivant": "living"
             },
             {
+                "id": 423,
                 "nom": "Onigumo",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6968,6 +7441,7 @@
                 "vivant": "living"
             },
             {
+                "id": 424,
                 "nom": "Doberman",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6982,6 +7456,7 @@
                 "vivant": "living"
             },
             {
+                "id": 425,
                 "nom": "Strawberry",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -6996,6 +7471,7 @@
                 "vivant": "living"
             },
             {
+                "id": 426,
                 "nom": "Yamakaji",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7010,6 +7486,7 @@
                 "vivant": "living"
             },
             {
+                "id": 427,
                 "nom": "Dalmatien",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7024,6 +7501,7 @@
                 "vivant": "living"
             },
             {
+                "id": 428,
                 "nom": "Bastille",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7038,6 +7516,7 @@
                 "vivant": "living"
             },
             {
+                "id": 429,
                 "nom": "Smoker",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7052,6 +7531,7 @@
                 "vivant": "living"
             },
             {
+                "id": 430,
                 "nom": "Maynard",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7066,6 +7546,7 @@
                 "vivant": "living"
             },
             {
+                "id": 431,
                 "nom": "Tokikake",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7080,6 +7561,7 @@
                 "vivant": "living"
             },
             {
+                "id": 432,
                 "nom": "Hina",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7094,6 +7576,7 @@
                 "vivant": "living"
             },
             {
+                "id": 433,
                 "nom": "T. Bone",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7108,6 +7591,7 @@
                 "vivant": "living"
             },
             {
+                "id": 434,
                 "nom": "Pudding",
                 "job": "Rear Admiral",
                 "force": 1000,
@@ -7122,6 +7606,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 435,
                 "nom": "Jenfétro",
                 "job": "Rear Admiral",
                 "force": 1000,
@@ -7136,6 +7621,7 @@
                 "vivant": "living"
             },
             {
+                "id": 436,
                 "nom": "Brandnew",
                 "job": "Rear Admiral",
                 "force": 1000,
@@ -7150,6 +7636,7 @@
                 "vivant": "living"
             },
             {
+                "id": 437,
                 "nom": "Verygood",
                 "job": "Colonel",
                 "force": 1000,
@@ -7164,6 +7651,7 @@
                 "vivant": "living"
             },
             {
+                "id": 438,
                 "nom": "Shu",
                 "job": "Colonel",
                 "force": 1000,
@@ -7178,6 +7666,7 @@
                 "vivant": "living"
             },
             {
+                "id": 439,
                 "nom": "Sharinguru",
                 "job": "Colonel",
                 "force": 1000,
@@ -7192,6 +7681,7 @@
                 "vivant": "living"
             },
             {
+                "id": 440,
                 "nom": "Tashigi",
                 "job": "Colonel",
                 "force": 1000,
@@ -7206,6 +7696,7 @@
                 "vivant": "living"
             },
             {
+                "id": 441,
                 "nom": "Kobby",
                 "job": "Colonel",
                 "force": 1000,
@@ -7220,6 +7711,7 @@
                 "vivant": "living"
             },
             {
+                "id": 442,
                 "nom": "Nezumi",
                 "job": "Colonel",
                 "force": 1000,
@@ -7234,6 +7726,7 @@
                 "vivant": "living"
             },
             {
+                "id": 443,
                 "nom": "Don Quijote Rosinante",
                 "job": "Lieutenant-Colonel",
                 "force": 1000,
@@ -7248,6 +7741,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 444,
                 "nom": "Hermep",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -7262,6 +7756,7 @@
                 "vivant": "living"
             },
             {
+                "id": 445,
                 "nom": "Fullbody",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -7276,6 +7771,7 @@
                 "vivant": "living"
             },
             {
+                "id": 446,
                 "nom": "Jango",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -7290,6 +7786,7 @@
                 "vivant": "living"
             },
             {
+                "id": 447,
                 "nom": "Sengoku",
                 "job": "Observer",
                 "force": 1000,
@@ -7304,6 +7801,7 @@
                 "vivant": "living"
             },
             {
+                "id": 448,
                 "nom": "Sentomaru",
                 "job": "Captain of the Scientific Brigade",
                 "force": 1000,
@@ -7318,6 +7816,7 @@
                 "vivant": "living"
             },
             {
+                "id": 449,
                 "nom": "X-Drake",
                 "job": "Captain of the Sword",
                 "force": 1000,
@@ -7332,6 +7831,7 @@
                 "vivant": "living"
             },
             {
+                "id": 450,
                 "nom": "Kaiser Moustache",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7346,6 +7846,7 @@
                 "vivant": "living"
             },
             {
+                "id": 451,
                 "nom": "Cancer",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7360,6 +7861,7 @@
                 "vivant": "living"
             },
             {
+                "id": 452,
                 "nom": "Mozambia",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7374,6 +7876,7 @@
                 "vivant": "living"
             },
             {
+                "id": 453,
                 "nom": "Lacroix",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7388,6 +7891,7 @@
                 "vivant": "living"
             },
             {
+                "id": 454,
                 "nom": "Ronz",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7402,6 +7906,7 @@
                 "vivant": "living"
             },
             {
+                "id": 455,
                 "nom": "Dohn Deynon",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7416,6 +7921,7 @@
                 "vivant": "living"
             },
             {
+                "id": 456,
                 "nom": "Draw",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -7430,6 +7936,7 @@
                 "vivant": "living"
             },
             {
+                "id": 457,
                 "nom": "Sicily",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7444,6 +7951,7 @@
                 "vivant": "living"
             },
             {
+                "id": 458,
                 "nom": "Akehende",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7458,6 +7966,7 @@
                 "vivant": "living"
             },
             {
+                "id": 459,
                 "nom": "Catacombo",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7472,6 +7981,7 @@
                 "vivant": "living"
             },
             {
+                "id": 460,
                 "nom": "Kadar",
                 "job": "Sub-Admiral",
                 "force": 1000,
@@ -7486,6 +7996,7 @@
                 "vivant": "living"
             },
             {
+                "id": 461,
                 "nom": "Daigin",
                 "job": "Rear Admiral",
                 "force": 1000,
@@ -7500,6 +8011,7 @@
                 "vivant": "living"
             },
             {
+                "id": 462,
                 "nom": "Gorilla",
                 "job": "Colonel",
                 "force": 1000,
@@ -7514,6 +8026,7 @@
                 "vivant": "living"
             },
             {
+                "id": 756,
                 "nom": "Pudding Pudding",
                 "job": "Commodore",
                 "force": 1000,
@@ -7534,6 +8047,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 463,
                 "nom": "Stelly",
                 "job": "Sovereign",
                 "force": 1000,
@@ -7548,6 +8062,7 @@
                 "vivant": "living"
             },
             {
+                "id": 464,
                 "nom": "Sally Entoilette",
                 "job": "Queen",
                 "force": 1000,
@@ -7562,6 +8077,7 @@
                 "vivant": "living"
             },
             {
+                "id": 465,
                 "nom": "Outlook III",
                 "job": "Residents of Haute Ville",
                 "force": 1000,
@@ -7576,6 +8092,7 @@
                 "vivant": "living"
             },
             {
+                "id": 466,
                 "nom": "Didit",
                 "job": "Residents of Haute Ville",
                 "force": 1000,
@@ -7590,6 +8107,7 @@
                 "vivant": "living"
             },
             {
+                "id": 467,
                 "nom": "Makino",
                 "job": "Bar owner",
                 "force": 1000,
@@ -7604,6 +8122,7 @@
                 "vivant": "living"
             },
             {
+                "id": 468,
                 "nom": "Woop Slap",
                 "job": "Mayor of the village of Fuchsia",
                 "force": 1000,
@@ -7618,6 +8137,7 @@
                 "vivant": "living"
             },
             {
+                "id": 469,
                 "nom": "Curly Dadan",
                 "job": "Mount Corvo resident",
                 "force": 1000,
@@ -7632,6 +8152,7 @@
                 "vivant": "living"
             },
             {
+                "id": 470,
                 "nom": "Dogra",
                 "job": "Mount Corvo resident",
                 "force": 1000,
@@ -7646,6 +8167,7 @@
                 "vivant": "living"
             },
             {
+                "id": 471,
                 "nom": "Magra",
                 "job": "Mount Corvo resident",
                 "force": 1000,
@@ -7660,6 +8182,7 @@
                 "vivant": "living"
             },
             {
+                "id": 472,
                 "nom": "Higuma",
                 "job": "Resident",
                 "force": 1000,
@@ -7680,6 +8203,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 473,
                 "nom": "Kozaburo Shimotsuki",
                 "job": "Resident",
                 "force": 1000,
@@ -7694,6 +8218,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 474,
                 "nom": "Koshiro",
                 "job": "Dojo Master",
                 "force": 1000,
@@ -7708,6 +8233,7 @@
                 "vivant": "living"
             },
             {
+                "id": 475,
                 "nom": "Kuina",
                 "job": "Resident",
                 "force": 1000,
@@ -7728,6 +8254,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 476,
                 "nom": "Boodle",
                 "job": "Mayor of the village of Orange",
                 "force": 1000,
@@ -7742,6 +8269,7 @@
                 "vivant": "living"
             },
             {
+                "id": 477,
                 "nom": "Chouchou",
                 "job": "Store owner",
                 "force": 1000,
@@ -7762,6 +8290,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 478,
                 "nom": "Gaimone",
                 "job": "Guard",
                 "force": 1000,
@@ -7776,6 +8305,7 @@
                 "vivant": "living"
             },
             {
+                "id": 479,
                 "nom": "Sarfunkel",
                 "job": "Resident",
                 "force": 1000,
@@ -7796,6 +8326,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 480,
                 "nom": "Kaya",
                 "job": "Medical student",
                 "force": 1000,
@@ -7810,6 +8341,7 @@
                 "vivant": "living"
             },
             {
+                "id": 481,
                 "nom": "Merry",
                 "job": "Butler",
                 "force": 1000,
@@ -7824,6 +8356,7 @@
                 "vivant": "living"
             },
             {
+                "id": 482,
                 "nom": "Oignon",
                 "job": "Resident of vilalge de Sirop",
                 "force": 1000,
@@ -7838,6 +8371,7 @@
                 "vivant": "living"
             },
             {
+                "id": 483,
                 "nom": "Piment",
                 "job": "Resident of vilalge de Sirop",
                 "force": 1000,
@@ -7852,6 +8386,7 @@
                 "vivant": "living"
             },
             {
+                "id": 484,
                 "nom": "Carotte",
                 "job": "Resident of vilalge de Sirop",
                 "force": 1000,
@@ -7866,6 +8401,7 @@
                 "vivant": "living"
             },
             {
+                "id": 485,
                 "nom": "Banchina",
                 "job": "Resident of vilalge de Sirop",
                 "force": 1000,
@@ -7886,6 +8422,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 486,
                 "nom": "Zeff",
                 "job": "Owner and Chef",
                 "force": 1000,
@@ -7900,6 +8437,7 @@
                 "vivant": "living"
             },
             {
+                "id": 487,
                 "nom": "Patty",
                 "job": "Pastry chef",
                 "force": 1000,
@@ -7914,6 +8452,7 @@
                 "vivant": "living"
             },
             {
+                "id": 488,
                 "nom": "Canne",
                 "job": "Meat cook",
                 "force": 1000,
@@ -7934,6 +8473,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 489,
                 "nom": "Belmer",
                 "job": "Tangerine grower",
                 "force": 1000,
@@ -7948,6 +8488,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 490,
                 "nom": "Nojiko",
                 "job": "Tangerine grower",
                 "force": 1000,
@@ -7962,6 +8503,7 @@
                 "vivant": "living"
             },
             {
+                "id": 491,
                 "nom": "Genzo",
                 "job": "Sheriff",
                 "force": 1000,
@@ -7976,6 +8518,7 @@
                 "vivant": "living"
             },
             {
+                "id": 492,
                 "nom": "Nako",
                 "job": "Doctor",
                 "force": 1000,
@@ -7990,6 +8533,7 @@
                 "vivant": "living"
             },
             {
+                "id": 493,
                 "nom": "Chabo",
                 "job": "Tangerine grower",
                 "force": 1000,
@@ -8004,6 +8548,7 @@
                 "vivant": "living"
             },
             {
+                "id": 494,
                 "nom": "Johny",
                 "job": "Fisherman",
                 "force": 1000,
@@ -8018,6 +8563,7 @@
                 "vivant": "living"
             },
             {
+                "id": 495,
                 "nom": "Yosaku",
                 "job": "Fisherman",
                 "force": 1000,
@@ -8038,6 +8584,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 496,
                 "nom": "Ipponmatsu",
                 "job": "Armurier",
                 "force": 1000,
@@ -8058,6 +8605,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 497,
                 "nom": "Montblanc Norland",
                 "job": "Explorer",
                 "force": 1000,
@@ -8078,6 +8626,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 499,
                 "nom": "Portgas D. Rouge",
                 "job": "",
                 "force": 1000,
@@ -8098,6 +8647,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 500,
                 "nom": "Wapol",
                 "job": "King",
                 "force": 1000,
@@ -8112,6 +8662,7 @@
                 "vivant": "living"
             },
             {
+                "id": 501,
                 "nom": "Kinderella",
                 "job": "Queen",
                 "force": 1000,
@@ -8126,6 +8677,7 @@
                 "vivant": "living"
             },
             {
+                "id": 729,
                 "nom": "Musshul",
                 "job": "Prince",
                 "force": 1000,
@@ -8146,6 +8698,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 502,
                 "nom": "Clover",
                 "job": "Library Manager",
                 "force": 1000,
@@ -8160,6 +8713,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 503,
                 "nom": "Nico Olvia",
                 "job": "Archaeologist",
                 "force": 1000,
@@ -8174,6 +8728,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 504,
                 "nom": "Haguar D. Sauro",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -8194,6 +8749,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 505,
                 "nom": "Ramen",
                 "job": "King",
                 "force": 1000,
@@ -8208,6 +8764,7 @@
                 "vivant": "unknown"
             },
             {
+                "id": 506,
                 "nom": "Chinjao",
                 "job": "",
                 "force": 1000,
@@ -8220,7 +8777,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "542.000.000"
+                "prime": 542000000
             }
         ]
     },
@@ -8229,6 +8786,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 507,
                 "nom": "Crocus",
                 "job": "Lighthouse keeper",
                 "force": 1000,
@@ -8243,6 +8801,7 @@
                 "vivant": "living"
             },
             {
+                "id": 508,
                 "nom": "Laboon",
                 "job": "Resident",
                 "force": 1000,
@@ -8263,6 +8822,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 509,
                 "nom": "Miss Monday",
                 "job": "Resident",
                 "force": 1000,
@@ -8277,6 +8837,7 @@
                 "vivant": "living"
             },
             {
+                "id": 510,
                 "nom": "Mr 9",
                 "job": "Resident",
                 "force": 1000,
@@ -8297,6 +8858,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 511,
                 "nom": "Dorry",
                 "job": "Resident",
                 "force": 1000,
@@ -8311,6 +8873,7 @@
                 "vivant": "living"
             },
             {
+                "id": 512,
                 "nom": "Broggy",
                 "job": "Resident",
                 "force": 1000,
@@ -8331,6 +8894,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 513,
                 "nom": "Dolton",
                 "job": "Sovereign",
                 "force": 1000,
@@ -8345,6 +8909,7 @@
                 "vivant": "living"
             },
             {
+                "id": 514,
                 "nom": "Kureha",
                 "job": "Doctor",
                 "force": 1000,
@@ -8359,6 +8924,7 @@
                 "vivant": "living"
             },
             {
+                "id": 515,
                 "nom": "Hiluluk",
                 "job": "Doctor",
                 "force": 1000,
@@ -8373,6 +8939,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 516,
                 "nom": "Chess",
                 "job": "Chief of Staff",
                 "force": 1000,
@@ -8387,6 +8954,7 @@
                 "vivant": "living"
             },
             {
+                "id": 517,
                 "nom": "Kuromarimo",
                 "job": "Director",
                 "force": 1000,
@@ -8407,6 +8975,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 518,
                 "nom": "Nefertari Cobra",
                 "job": "12th King",
                 "force": 1000,
@@ -8421,6 +8990,7 @@
                 "vivant": "living"
             },
             {
+                "id": 519,
                 "nom": "Nefertari Titi",
                 "job": "Queen",
                 "force": 1000,
@@ -8435,6 +9005,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 520,
                 "nom": "Nefertari Vivi",
                 "job": "Princess",
                 "force": 1000,
@@ -8449,6 +9020,7 @@
                 "vivant": "living"
             },
             {
+                "id": 521,
                 "nom": "Igaram",
                 "job": "Commander of the Royal Guard",
                 "force": 1000,
@@ -8463,6 +9035,7 @@
                 "vivant": "living"
             },
             {
+                "id": 522,
                 "nom": "Chaka",
                 "job": "Deputy Commander of the Royal Guard",
                 "force": 1000,
@@ -8477,6 +9050,7 @@
                 "vivant": "living"
             },
             {
+                "id": 523,
                 "nom": "Pell",
                 "job": "Deputy Commander of the Royal Guard",
                 "force": 1000,
@@ -8491,6 +9065,7 @@
                 "vivant": "living"
             },
             {
+                "id": 524,
                 "nom": "Kaloo",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8505,6 +9080,7 @@
                 "vivant": "living"
             },
             {
+                "id": 525,
                 "nom": "Longs-Cils",
                 "job": "Resident",
                 "force": 1000,
@@ -8519,6 +9095,7 @@
                 "vivant": "living"
             },
             {
+                "id": 526,
                 "nom": "Stomp",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8533,6 +9110,7 @@
                 "vivant": "living"
             },
             {
+                "id": 527,
                 "nom": "Ivan X",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8547,6 +9125,7 @@
                 "vivant": "living"
             },
             {
+                "id": 528,
                 "nom": "Cowboy",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8561,6 +9140,7 @@
                 "vivant": "living"
             },
             {
+                "id": 529,
                 "nom": "Bourdon Jr.",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8575,6 +9155,7 @@
                 "vivant": "living"
             },
             {
+                "id": 530,
                 "nom": "Kentarôs",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8589,6 +9170,7 @@
                 "vivant": "living"
             },
             {
+                "id": 531,
                 "nom": "Hikoichi",
                 "job": "Super Duck Squadron",
                 "force": 1000,
@@ -8603,6 +9185,7 @@
                 "vivant": "living"
             },
             {
+                "id": 532,
                 "nom": "Koza",
                 "job": "Minister for the Environment",
                 "force": 1000,
@@ -8617,6 +9200,7 @@
                 "vivant": "living"
             },
             {
+                "id": 533,
                 "nom": "Toto",
                 "job": "Resident",
                 "force": 1000,
@@ -8637,6 +9221,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 534,
                 "nom": "Tonjit",
                 "job": "Nomad",
                 "force": 1000,
@@ -8651,6 +9236,7 @@
                 "vivant": "living"
             },
             {
+                "id": 535,
                 "nom": "Shelly",
                 "job": "Resident",
                 "force": 1000,
@@ -8671,6 +9257,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 536,
                 "nom": "Gedatsu",
                 "job": "Employee",
                 "force": 1000,
@@ -8691,6 +9278,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 537,
                 "nom": "Icebarg",
                 "job": "Galley-La Company (manager)",
                 "force": 1000,
@@ -8705,6 +9293,7 @@
                 "vivant": "living"
             },
             {
+                "id": 538,
                 "nom": "Pauly",
                 "job": "Galley-La Company (vice-manager)",
                 "force": 1000,
@@ -8719,6 +9308,7 @@
                 "vivant": "living"
             },
             {
+                "id": 539,
                 "nom": "Peeply Lulu",
                 "job": "Galley-La Company (head of coaters and blacksmiths)",
                 "force": 1000,
@@ -8733,6 +9323,7 @@
                 "vivant": "living"
             },
             {
+                "id": 540,
                 "nom": "Tilestone",
                 "job": "Galley-La Company (head of cabinetmakers, sailmakers and sailmakers)",
                 "force": 1000,
@@ -8747,6 +9338,7 @@
                 "vivant": "living"
             },
             {
+                "id": 541,
                 "nom": "Zanbai",
                 "job": "Galley-La Company (Zanbai syndicate)",
                 "force": 1000,
@@ -8761,6 +9353,7 @@
                 "vivant": "living"
             },
             {
+                "id": 542,
                 "nom": "Mozu",
                 "job": "Bartender",
                 "force": 1000,
@@ -8775,6 +9368,7 @@
                 "vivant": "living"
             },
             {
+                "id": 543,
                 "nom": "Kiwi",
                 "job": "Bartender",
                 "force": 1000,
@@ -8789,6 +9383,7 @@
                 "vivant": "living"
             },
             {
+                "id": 544,
                 "nom": "Tom",
                 "job": "Tom's Workers (boss)",
                 "force": 1000,
@@ -8803,6 +9398,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 545,
                 "nom": "Kokoro",
                 "job": "Shift Station Station Manager",
                 "force": 1000,
@@ -8817,6 +9413,7 @@
                 "vivant": "living"
             },
             {
+                "id": 546,
                 "nom": "Chimney",
                 "job": "Shift Station Sunday stationmaster",
                 "force": 1000,
@@ -8831,6 +9428,7 @@
                 "vivant": "living"
             },
             {
+                "id": 547,
                 "nom": "Gonbei",
                 "job": "Resident",
                 "force": 1000,
@@ -8845,6 +9443,7 @@
                 "vivant": "living"
             },
             {
+                "id": 548,
                 "nom": "Yokozuma",
                 "job": "Resident",
                 "force": 1000,
@@ -8865,6 +9464,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 549,
                 "nom": "Silvers Rayleigh",
                 "job": "Resident",
                 "force": 1000,
@@ -8879,6 +9479,7 @@
                 "vivant": "living"
             },
             {
+                "id": 550,
                 "nom": "Shakuyaku",
                 "job": "Resident",
                 "force": 1000,
@@ -8893,6 +9494,7 @@
                 "vivant": "living"
             },
             {
+                "id": 551,
                 "nom": "Disco",
                 "job": "Resident",
                 "force": 1000,
@@ -8907,6 +9509,7 @@
                 "vivant": "living"
             },
             {
+                "id": 552,
                 "nom": "Duval",
                 "job": "Resident",
                 "force": 1000,
@@ -8927,6 +9530,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 553,
                 "nom": "Héraclès",
                 "job": "Resident",
                 "force": 1000,
@@ -8947,6 +9551,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 554,
                 "nom": "Loki",
                 "job": "Prince",
                 "force": 1000,
@@ -8961,6 +9566,7 @@
                 "vivant": "living"
             },
             {
+                "id": 555,
                 "nom": "Jorl",
                 "job": "Resident",
                 "force": 1000,
@@ -8975,6 +9581,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 556,
                 "nom": "Jarl",
                 "job": "Resident",
                 "force": 1000,
@@ -8989,6 +9596,7 @@
                 "vivant": "living"
             },
             {
+                "id": 557,
                 "nom": "Oimo",
                 "job": "Resident",
                 "force": 1000,
@@ -9003,6 +9611,7 @@
                 "vivant": "living"
             },
             {
+                "id": 558,
                 "nom": "Kaashii",
                 "job": "Resident",
                 "force": 1000,
@@ -9023,6 +9632,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 559,
                 "nom": "Sukiyaki Kozuki",
                 "job": "Shogun",
                 "force": 1000,
@@ -9037,6 +9647,7 @@
                 "vivant": "living"
             },
             {
+                "id": 560,
                 "nom": "Oden Kozuki",
                 "job": "Lord of Kuri",
                 "force": 1000,
@@ -9051,6 +9662,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 561,
                 "nom": "Toki Kozuki",
                 "job": "Resident",
                 "force": 1000,
@@ -9065,6 +9677,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 562,
                 "nom": "Mononosuké Kozuki",
                 "job": "Shogun",
                 "force": 1000,
@@ -9079,6 +9692,7 @@
                 "vivant": "living"
             },
             {
+                "id": 563,
                 "nom": "Hiyori Kozuki",
                 "job": "Courtesan",
                 "force": 1000,
@@ -9093,6 +9707,7 @@
                 "vivant": "living"
             },
             {
+                "id": 564,
                 "nom": "Kinémon",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9107,6 +9722,7 @@
                 "vivant": "living"
             },
             {
+                "id": 565,
                 "nom": "Denjiro",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9121,6 +9737,7 @@
                 "vivant": "living"
             },
             {
+                "id": 566,
                 "nom": "Izo",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9133,9 +9750,10 @@
                 },
                 "pv": 2000,
                 "vivant": "deceased",
-                "prime": "510.000.000"
+                "prime": 510000000
             },
             {
+                "id": 567,
                 "nom": "Kikunojo",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9150,6 +9768,7 @@
                 "vivant": "living"
             },
             {
+                "id": 568,
                 "nom": "Raizo",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9164,6 +9783,7 @@
                 "vivant": "living"
             },
             {
+                "id": 569,
                 "nom": "Ashura Doji",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9178,6 +9798,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 570,
                 "nom": "Kawamatsu",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9192,6 +9813,7 @@
                 "vivant": "living"
             },
             {
+                "id": 571,
                 "nom": "Shinobu",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9206,6 +9828,7 @@
                 "vivant": "living"
             },
             {
+                "id": 572,
                 "nom": "Orochi Kurozumi",
                 "job": "Shogun",
                 "force": 1000,
@@ -9220,6 +9843,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 573,
                 "nom": "Kanjuro Kurozumi",
                 "job": "Red sheaths",
                 "force": 1000,
@@ -9234,6 +9858,7 @@
                 "vivant": "living"
             },
             {
+                "id": 574,
                 "nom": "Semimaru Kurozumi",
                 "job": "Kurozumo clan",
                 "force": 1000,
@@ -9248,6 +9873,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 575,
                 "nom": "Higurashi Kurozumi",
                 "job": "Kurozumo clan",
                 "force": 1000,
@@ -9262,6 +9888,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 576,
                 "nom": "Ryuma Shimotsuki",
                 "job": "Shimotsuki clan",
                 "force": 1000,
@@ -9276,6 +9903,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 577,
                 "nom": "Yasui Shimotsuki",
                 "job": "Shimotsuki clan",
                 "force": 1000,
@@ -9290,6 +9918,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 578,
                 "nom": "Toko",
                 "job": "Shimotsuki clan",
                 "force": 1000,
@@ -9304,6 +9933,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 579,
                 "nom": "Onimaru",
                 "job": "Resident",
                 "force": 1000,
@@ -9318,6 +9948,7 @@
                 "vivant": "living"
             },
             {
+                "id": 580,
                 "nom": "Hyogoro",
                 "job": "head of a yakuza clan in the capital of flowers",
                 "force": 1000,
@@ -9332,6 +9963,7 @@
                 "vivant": "living"
             },
             {
+                "id": 581,
                 "nom": "Omasa",
                 "job": "head of a yakuza clan in the Udon region",
                 "force": 1000,
@@ -9346,6 +9978,7 @@
                 "vivant": "living"
             },
             {
+                "id": 582,
                 "nom": "Tsunagoro",
                 "job": "head of a yakuza clan in the Hakumai region",
                 "force": 1000,
@@ -9360,6 +9993,7 @@
                 "vivant": "living"
             },
             {
+                "id": 583,
                 "nom": "Cho",
                 "job": "head of a yakuza clan in the Ringo region",
                 "force": 1000,
@@ -9374,6 +10008,7 @@
                 "vivant": "living"
             },
             {
+                "id": 584,
                 "nom": "Yatappé",
                 "job": "head of a yakuza clan in the Kibi region",
                 "force": 1000,
@@ -9388,6 +10023,7 @@
                 "vivant": "living"
             },
             {
+                "id": 585,
                 "nom": "Tama",
                 "job": "Resident",
                 "force": 1000,
@@ -9402,6 +10038,7 @@
                 "vivant": "living"
             },
             {
+                "id": 586,
                 "nom": "Tsurujo",
                 "job": "Resident",
                 "force": 1000,
@@ -9416,6 +10053,7 @@
                 "vivant": "living"
             },
             {
+                "id": 587,
                 "nom": "Komachiyo",
                 "job": "Resident",
                 "force": 1000,
@@ -9430,6 +10068,7 @@
                 "vivant": "living"
             },
             {
+                "id": 588,
                 "nom": "Baboumaru",
                 "job": "Resident",
                 "force": 1000,
@@ -9444,6 +10083,7 @@
                 "vivant": "living"
             },
             {
+                "id": 589,
                 "nom": "Bunbuku",
                 "job": "Resident",
                 "force": 1000,
@@ -9458,6 +10098,7 @@
                 "vivant": "living"
             },
             {
+                "id": 590,
                 "nom": "Yamato",
                 "job": "Resident",
                 "force": 1000,
@@ -9472,6 +10113,7 @@
                 "vivant": "living"
             },
             {
+                "id": 749,
                 "nom": "Tenguyama Hitetsu",
                 "job": "Blacksmith",
                 "force": 1000,
@@ -9492,6 +10134,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 591,
                 "nom": "Rock",
                 "job": "Yeti Cool Brothers",
                 "force": 1000,
@@ -9504,9 +10147,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "20.000.000"
+                "prime": 20000000
             },
             {
+                "id": 592,
                 "nom": "Scotch",
                 "job": "Yeti Cool Brothers",
                 "force": 1000,
@@ -9519,9 +10163,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "20.000.000"
+                "prime": 20000000
             },
             {
+                "id": 593,
                 "nom": "Smiley",
                 "job": "Resident",
                 "force": 1000,
@@ -9536,6 +10181,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 691,
                 "nom": "César Clown",
                 "job": "",
                 "force": 1000,
@@ -9548,7 +10194,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "300.000.000"
+                "prime": 300000000
             }
         ]
     },
@@ -9557,6 +10203,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 594,
                 "nom": "Riku Dold III",
                 "job": "King",
                 "force": 1000,
@@ -9571,6 +10218,7 @@
                 "vivant": "living"
             },
             {
+                "id": 595,
                 "nom": "Scarlett",
                 "job": "Princess",
                 "force": 1000,
@@ -9585,6 +10233,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 596,
                 "nom": "Kyros",
                 "job": "Commander-in-Chief",
                 "force": 1000,
@@ -9599,6 +10248,7 @@
                 "vivant": "living"
             },
             {
+                "id": 597,
                 "nom": "Viola",
                 "job": "Princess",
                 "force": 1000,
@@ -9613,6 +10263,7 @@
                 "vivant": "living"
             },
             {
+                "id": 598,
                 "nom": "Rebecca",
                 "job": "Next",
                 "force": 1000,
@@ -9627,6 +10278,7 @@
                 "vivant": "living"
             },
             {
+                "id": 599,
                 "nom": "Gatz",
                 "job": "Resident",
                 "force": 1000,
@@ -9641,6 +10293,7 @@
                 "vivant": "living"
             },
             {
+                "id": 600,
                 "nom": "Tank Lepanto",
                 "job": "Resident",
                 "force": 1000,
@@ -9661,6 +10314,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 601,
                 "nom": "Guncho",
                 "job": "King",
                 "force": 1000,
@@ -9675,6 +10329,7 @@
                 "vivant": "living"
             },
             {
+                "id": 602,
                 "nom": "Manshelly",
                 "job": "Princess",
                 "force": 1000,
@@ -9695,6 +10350,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 603,
                 "nom": "Zunesh",
                 "job": "",
                 "force": 1000,
@@ -9709,6 +10365,7 @@
                 "vivant": "living"
             },
             {
+                "id": 604,
                 "nom": "Bêgis Khan",
                 "job": "Lord",
                 "force": 1000,
@@ -9723,6 +10380,7 @@
                 "vivant": "living"
             },
             {
+                "id": 605,
                 "nom": "Caborage",
                 "job": "Day Lord / Red Sheaths",
                 "force": 1000,
@@ -9737,6 +10395,7 @@
                 "vivant": "living"
             },
             {
+                "id": 606,
                 "nom": "Chavipère",
                 "job": "Seigneur Nocture / Fourreaux Rouges",
                 "force": 1000,
@@ -9751,6 +10410,7 @@
                 "vivant": "living"
             },
             {
+                "id": 607,
                 "nom": "Sicilion",
                 "job": "Captain of the Musketeers unit",
                 "force": 1000,
@@ -9765,6 +10425,7 @@
                 "vivant": "living"
             },
             {
+                "id": 608,
                 "nom": "Cancelot",
                 "job": "Musketeer unit",
                 "force": 1000,
@@ -9779,6 +10440,7 @@
                 "vivant": "living"
             },
             {
+                "id": 609,
                 "nom": "Giovanni",
                 "job": "Musketeer unit",
                 "force": 1000,
@@ -9793,6 +10455,7 @@
                 "vivant": "living"
             },
             {
+                "id": 610,
                 "nom": "Wanda",
                 "job": "Musketeer unit",
                 "force": 1000,
@@ -9807,6 +10470,7 @@
                 "vivant": "living"
             },
             {
+                "id": 611,
                 "nom": "Carrot",
                 "job": "Musketeer unit",
                 "force": 1000,
@@ -9821,6 +10485,7 @@
                 "vivant": "living"
             },
             {
+                "id": 612,
                 "nom": "Pedro",
                 "job": "Musketeer unit",
                 "force": 1000,
@@ -9841,6 +10506,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 613,
                 "nom": "Elizabello II",
                 "job": "Sovereign",
                 "force": 1000,
@@ -9855,6 +10521,7 @@
                 "vivant": "living"
             },
             {
+                "id": 614,
                 "nom": "Dagama",
                 "job": "Strategist",
                 "force": 1000,
@@ -9875,6 +10542,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 615,
                 "nom": "Kelly Funk",
                 "job": "Assassin",
                 "force": 1000,
@@ -9887,9 +10555,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "57.000.000"
+                "prime": 57000000
             },
             {
+                "id": 616,
                 "nom": "Bobby Funk",
                 "job": "Assassin",
                 "force": 1000,
@@ -9902,7 +10571,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "36.000.000"
+                "prime": 36000000
             }
         ]
     },
@@ -9911,6 +10580,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 617,
                 "nom": "Judge Vinsmoke",
                 "job": "Sovereign",
                 "force": 1000,
@@ -9925,6 +10595,7 @@
                 "vivant": "living"
             },
             {
+                "id": 618,
                 "nom": "Sora Vinsmoke",
                 "job": "Queen",
                 "force": 1000,
@@ -9939,6 +10610,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 619,
                 "nom": "Reiju Vinsmoke",
                 "job": "Princess",
                 "force": 1000,
@@ -9953,6 +10625,7 @@
                 "vivant": "living"
             },
             {
+                "id": 620,
                 "nom": "Ichiji Vinsmoke",
                 "job": "Prince",
                 "force": 1000,
@@ -9967,6 +10640,7 @@
                 "vivant": "living"
             },
             {
+                "id": 621,
                 "nom": "Niji Vinsmoke",
                 "job": "Prince",
                 "force": 1000,
@@ -9981,6 +10655,7 @@
                 "vivant": "living"
             },
             {
+                "id": 622,
                 "nom": "Yonji Vinsmoke",
                 "job": "Prince",
                 "force": 1000,
@@ -10001,6 +10676,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 623,
                 "nom": "Marco",
                 "job": "Sphinx (doctor) / Command 1st Whitebeard Fleet",
                 "force": 1000,
@@ -10013,7 +10689,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "1.374.000.000"
+                "prime": 1374000000
             }
         ]
     },
@@ -10022,6 +10698,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 624,
                 "nom": "Gan Forr",
                 "job": "God",
                 "force": 1000,
@@ -10036,6 +10713,7 @@
                 "vivant": "living"
             },
             {
+                "id": 625,
                 "nom": "Pierre",
                 "job": "Resident",
                 "force": 1000,
@@ -10050,6 +10728,7 @@
                 "vivant": "living"
             },
             {
+                "id": 626,
                 "nom": "Conis",
                 "job": "Resident",
                 "force": 1000,
@@ -10064,6 +10743,7 @@
                 "vivant": "living"
             },
             {
+                "id": 627,
                 "nom": "Pagaya",
                 "job": "Resident",
                 "force": 1000,
@@ -10078,6 +10758,7 @@
                 "vivant": "living"
             },
             {
+                "id": 628,
                 "nom": "Amazon",
                 "job": "Resident",
                 "force": 1000,
@@ -10092,6 +10773,7 @@
                 "vivant": "living"
             },
             {
+                "id": 629,
                 "nom": "Chef Shandia",
                 "job": "Resident / Shandia tribe (chief)",
                 "force": 1000,
@@ -10106,6 +10788,7 @@
                 "vivant": "living"
             },
             {
+                "id": 630,
                 "nom": "Wiper",
                 "job": "Divine Guard / Shandia Tribe",
                 "force": 1000,
@@ -10120,6 +10803,7 @@
                 "vivant": "living"
             },
             {
+                "id": 631,
                 "nom": "Kamakiri",
                 "job": "Divine Guard / Shandia Tribe",
                 "force": 1000,
@@ -10134,6 +10818,7 @@
                 "vivant": "living"
             },
             {
+                "id": 632,
                 "nom": "Braham",
                 "job": "Divine Guard / Shandia Tribe",
                 "force": 1000,
@@ -10148,6 +10833,7 @@
                 "vivant": "living"
             },
             {
+                "id": 633,
                 "nom": "Genbo",
                 "job": "Divine Guard / Shandia Tribe",
                 "force": 1000,
@@ -10162,6 +10848,7 @@
                 "vivant": "living"
             },
             {
+                "id": 634,
                 "nom": "Laki",
                 "job": "Resident / Shandia tribe",
                 "force": 1000,
@@ -10176,6 +10863,7 @@
                 "vivant": "living"
             },
             {
+                "id": 635,
                 "nom": "Aisa",
                 "job": "Resident / Shandia tribe",
                 "force": 1000,
@@ -10190,6 +10878,7 @@
                 "vivant": "living"
             },
             {
+                "id": 636,
                 "nom": "Nora",
                 "job": "Resident / Shandia tribe",
                 "force": 1000,
@@ -10204,6 +10893,7 @@
                 "vivant": "living"
             },
             {
+                "id": 637,
                 "nom": "Calgara",
                 "job": "Shandia tribe",
                 "force": 1000,
@@ -10218,6 +10908,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 638,
                 "nom": "Om",
                 "job": "Skypiea (exiled) / Clan Ener (Prelate of the Iron ordalia)",
                 "force": 1000,
@@ -10232,6 +10923,7 @@
                 "vivant": "living"
             },
             {
+                "id": 639,
                 "nom": "Satori",
                 "job": "Skypiea (exiled) / Clan Ener (Prelate of the Balloon Ordinary)",
                 "force": 1000,
@@ -10246,6 +10938,7 @@
                 "vivant": "living"
             },
             {
+                "id": 640,
                 "nom": "Shura",
                 "job": "Skypiea (exiled) / Clan Ener (Prelate of the ordination of sons)",
                 "force": 1000,
@@ -10260,6 +10953,7 @@
                 "vivant": "living"
             },
             {
+                "id": 641,
                 "nom": "Yama",
                 "job": "Skypiea (exile) / Clan Ener (captain of the sacred guard)",
                 "force": 1000,
@@ -10274,6 +10968,7 @@
                 "vivant": "living"
             },
             {
+                "id": 642,
                 "nom": "Hotori",
                 "job": "Skypiea (exiled) / Clan Ener (vice captain of the sacred guard)",
                 "force": 1000,
@@ -10288,6 +10983,7 @@
                 "vivant": "living"
             },
             {
+                "id": 643,
                 "nom": "Kotori",
                 "job": "Skypiea (exiled) / Clan Ener (vice captain of the sacred guard)",
                 "force": 1000,
@@ -10308,6 +11004,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 644,
                 "nom": "Haredas",
                 "job": "Resident",
                 "force": 1000,
@@ -10328,6 +11025,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 645,
                 "nom": "Neptune",
                 "job": "Monarch",
                 "force": 1000,
@@ -10342,6 +11040,7 @@
                 "vivant": "living"
             },
             {
+                "id": 646,
                 "nom": "Otohime",
                 "job": "Queen",
                 "force": 1000,
@@ -10356,6 +11055,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 647,
                 "nom": "Fukaboshi",
                 "job": "Prince",
                 "force": 1000,
@@ -10370,6 +11070,7 @@
                 "vivant": "living"
             },
             {
+                "id": 648,
                 "nom": "Ryuboshi",
                 "job": "Prince",
                 "force": 1000,
@@ -10384,6 +11085,7 @@
                 "vivant": "living"
             },
             {
+                "id": 649,
                 "nom": "Mamboshi",
                 "job": "Prince",
                 "force": 1000,
@@ -10398,6 +11100,7 @@
                 "vivant": "living"
             },
             {
+                "id": 650,
                 "nom": "Shirahoshi",
                 "job": "Princess",
                 "force": 1000,
@@ -10412,6 +11115,7 @@
                 "vivant": "living"
             },
             {
+                "id": 651,
                 "nom": "Hoé",
                 "job": "Resident",
                 "force": 1000,
@@ -10426,6 +11130,7 @@
                 "vivant": "living"
             },
             {
+                "id": 652,
                 "nom": "Mégalo",
                 "job": "Resident",
                 "force": 1000,
@@ -10440,6 +11145,7 @@
                 "vivant": "living"
             },
             {
+                "id": 653,
                 "nom": "Ministre Sénestre",
                 "job": "Minister Sénestre",
                 "force": 1000,
@@ -10454,6 +11160,7 @@
                 "vivant": "living"
             },
             {
+                "id": 654,
                 "nom": "Ministre Dextre",
                 "job": "Minister Dextre",
                 "force": 1000,
@@ -10468,6 +11175,7 @@
                 "vivant": "living"
             },
             {
+                "id": 655,
                 "nom": "Shyarly",
                 "job": "Owner Café des Sirènes",
                 "force": 1000,
@@ -10482,6 +11190,7 @@
                 "vivant": "living"
             },
             {
+                "id": 656,
                 "nom": "Keimi",
                 "job": "Café des Sirènes employee",
                 "force": 1000,
@@ -10496,6 +11205,7 @@
                 "vivant": "living"
             },
             {
+                "id": 657,
                 "nom": "Pappag",
                 "job": "Founder / Designer of the \"Criminal\" brand",
                 "force": 1000,
@@ -10510,6 +11220,7 @@
                 "vivant": "living"
             },
             {
+                "id": 658,
                 "nom": "Octy",
                 "job": "Takoyaki merchant",
                 "force": 1000,
@@ -10522,9 +11233,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "8.000.000"
+                "prime": 8000000
             },
             {
+                "id": 659,
                 "nom": "Den",
                 "job": "Carpenter",
                 "force": 1000,
@@ -10545,6 +11257,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 660,
                 "nom": "Ener",
                 "job": "Manager",
                 "force": 1000,
@@ -10565,6 +11278,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 661,
                 "nom": "Monkey D. Dragon",
                 "job": "Commander-in-Chief",
                 "force": 1000,
@@ -10579,6 +11293,7 @@
                 "vivant": "living"
             },
             {
+                "id": 662,
                 "nom": "Sabo",
                 "job": "Chief of Staff",
                 "force": 1000,
@@ -10591,9 +11306,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "602.000.000"
+                "prime": 602000000
             },
             {
+                "id": 663,
                 "nom": "Emporio Ivankov",
                 "job": "Command of troop G",
                 "force": 1000,
@@ -10606,9 +11322,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "100.000.000"
+                "prime": 100000000
             },
             {
+                "id": 664,
                 "nom": "Corbeau",
                 "job": "Commander of the \"Septentrionale\" troop",
                 "force": 1000,
@@ -10621,9 +11338,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "400.000.000"
+                "prime": 400000000
             },
             {
+                "id": 665,
                 "nom": "Belo Betty",
                 "job": "Commander of the \"Oriental\" troop",
                 "force": 1000,
@@ -10636,9 +11354,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "457.000.000"
+                "prime": 457000000
             },
             {
+                "id": 666,
                 "nom": "Morley",
                 "job": "Western\" troop commander",
                 "force": 1000,
@@ -10651,9 +11370,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "293.000.000"
+                "prime": 293000000
             },
             {
+                "id": 667,
                 "nom": "Lindbergh",
                 "job": "Commander of the \"southern\" troop",
                 "force": 1000,
@@ -10666,9 +11386,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "316.000.000"
+                "prime": 316000000
             },
             {
+                "id": 668,
                 "nom": "Inazuma",
                 "job": "Sub-Commander of \"G\" Troop",
                 "force": 1000,
@@ -10681,9 +11402,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "100.000.000"
+                "prime": 100000000
             },
             {
+                "id": 669,
                 "nom": "Canard",
                 "job": "Commander of the \"Oriental\" troop",
                 "force": 1000,
@@ -10698,6 +11420,7 @@
                 "vivant": "living"
             },
             {
+                "id": 670,
                 "nom": "Koala",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -10712,6 +11435,7 @@
                 "vivant": "living"
             },
             {
+                "id": 671,
                 "nom": "Hack",
                 "job": "Private",
                 "force": 1000,
@@ -10726,6 +11450,7 @@
                 "vivant": "living"
             },
             {
+                "id": 773,
                 "nom": "Karazu",
                 "job": "Captain",
                 "force": 1000,
@@ -10746,6 +11471,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 672,
                 "nom": "Zala",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10758,9 +11484,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "35.000.000"
+                "prime": 35000000
             },
             {
+                "id": 673,
                 "nom": "Bentham",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10773,9 +11500,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "32.000.000"
+                "prime": 32000000
             },
             {
+                "id": 674,
                 "nom": "Marianne",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10788,9 +11516,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "29.000.000"
+                "prime": 29000000
             },
             {
+                "id": 675,
                 "nom": "Babe",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10803,9 +11532,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "3.200.000"
+                "prime": 3200000
             },
             {
+                "id": 676,
                 "nom": "Lassou",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10820,6 +11550,7 @@
                 "vivant": "living"
             },
             {
+                "id": 677,
                 "nom": "Drophy",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10832,9 +11563,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "14.000.000"
+                "prime": 14000000
             },
             {
+                "id": 678,
                 "nom": "Gemme",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10847,9 +11579,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "10.000.000"
+                "prime": 10000000
             },
             {
+                "id": 679,
                 "nom": "Mikita",
                 "job": "Special Agent",
                 "force": 1000,
@@ -10862,7 +11595,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "7.500.000"
+                "prime": 7500000
             }
         ]
     },
@@ -10871,6 +11604,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 680,
                 "nom": "Jabura",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10885,6 +11619,7 @@
                 "vivant": "living"
             },
             {
+                "id": 681,
                 "nom": "Blueno",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10899,6 +11634,7 @@
                 "vivant": "living"
             },
             {
+                "id": 682,
                 "nom": "Kumadori",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10913,6 +11649,7 @@
                 "vivant": "living"
             },
             {
+                "id": 683,
                 "nom": "Fukuro",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10927,6 +11664,7 @@
                 "vivant": "living"
             },
             {
+                "id": 684,
                 "nom": "Kalifa",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10941,6 +11679,7 @@
                 "vivant": "living"
             },
             {
+                "id": 685,
                 "nom": "Nero",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10955,6 +11694,7 @@
                 "vivant": "living"
             },
             {
+                "id": 686,
                 "nom": "Spandine",
                 "job": "Cipher Pol n°9",
                 "force": 1000,
@@ -10975,6 +11715,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 687,
                 "nom": "Kuzan / Aokiji",
                 "job": "Admiral",
                 "force": 1000,
@@ -10989,6 +11730,7 @@
                 "vivant": "living"
             },
             {
+                "id": 688,
                 "nom": "Morgan",
                 "job": "Colonel",
                 "force": 1000,
@@ -11009,6 +11751,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 690,
                 "nom": "Bartholomew Kuma",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -11021,7 +11764,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "296.000.000"
+                "prime": 296000000
             }
         ]
     },
@@ -11030,6 +11773,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 692,
                 "nom": "Morgans",
                 "job": "World Economic Journal (boss)",
                 "force": 1000,
@@ -11050,6 +11794,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 698,
                 "nom": "Bear King",
                 "job": "Captain",
                 "force": 1000,
@@ -11062,9 +11807,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "11.600.000"
+                "prime": 11600000
             },
             {
+                "id": 699,
                 "nom": "Honey Queen",
                 "job": "",
                 "force": 1000,
@@ -11077,9 +11823,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "7.800.000"
+                "prime": 7800000
             },
             {
+                "id": 700,
                 "nom": "Pin Joker",
                 "job": "",
                 "force": 1000,
@@ -11092,9 +11839,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "9.900.000"
+                "prime": 9900000
             },
             {
+                "id": 701,
                 "nom": "Boo Jack",
                 "job": "",
                 "force": 1000,
@@ -11107,9 +11855,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "3.200.000"
+                "prime": 3200000
             },
             {
+                "id": 702,
                 "nom": "Skunk One",
                 "job": "",
                 "force": 1000,
@@ -11122,7 +11871,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "6.000.000"
+                "prime": 6000000
             }
         ]
     },
@@ -11131,6 +11880,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 703,
                 "nom": "Borodo",
                 "job": "",
                 "force": 1000,
@@ -11145,6 +11895,7 @@
                 "vivant": "living"
             },
             {
+                "id": 704,
                 "nom": "Akisu",
                 "job": "",
                 "force": 1000,
@@ -11165,6 +11916,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 709,
                 "nom": "Général Gasparde",
                 "job": "Captain",
                 "force": 1000,
@@ -11177,9 +11929,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "95.000.000"
+                "prime": 95000000
             },
             {
+                "id": 710,
                 "nom": "Needless",
                 "job": "",
                 "force": 1000,
@@ -11192,9 +11945,10 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "57.000.000"
+                "prime": 57000000
             },
             {
+                "id": 711,
                 "nom": "Biera",
                 "job": "",
                 "force": 1000,
@@ -11209,6 +11963,7 @@
                 "vivant": "living"
             },
             {
+                "id": 712,
                 "nom": "Shuraiya Bascùd",
                 "job": "",
                 "force": 1000,
@@ -11223,6 +11978,7 @@
                 "vivant": "living"
             },
             {
+                "id": 713,
                 "nom": "Adelle Bascùd",
                 "job": "",
                 "force": 1000,
@@ -11243,6 +11999,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 714,
                 "nom": "Saga",
                 "job": "",
                 "force": 1000,
@@ -11257,6 +12014,7 @@
                 "vivant": "living"
             },
             {
+                "id": 715,
                 "nom": "Toma",
                 "job": "",
                 "force": 1000,
@@ -11271,6 +12029,7 @@
                 "vivant": "living"
             },
             {
+                "id": 716,
                 "nom": "Bismarck",
                 "job": "",
                 "force": 1000,
@@ -11285,6 +12044,7 @@
                 "vivant": "living"
             },
             {
+                "id": 717,
                 "nom": "Boo Kong",
                 "job": "",
                 "force": 1000,
@@ -11299,6 +12059,7 @@
                 "vivant": "living"
             },
             {
+                "id": 718,
                 "nom": "Maya",
                 "job": "Priestess",
                 "force": 1000,
@@ -11313,6 +12074,7 @@
                 "vivant": "living"
             },
             {
+                "id": 719,
                 "nom": "Izaya",
                 "job": "Priestess",
                 "force": 1000,
@@ -11327,6 +12089,7 @@
                 "vivant": "living"
             },
             {
+                "id": 720,
                 "nom": "Lacos",
                 "job": "Chief Warrior",
                 "force": 1000,
@@ -11347,6 +12110,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 721,
                 "nom": "Omatsuri",
                 "job": "Captain",
                 "force": 1000,
@@ -11361,6 +12125,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 722,
                 "nom": "Lily Carnation",
                 "job": "Captain",
                 "force": 1000,
@@ -11381,6 +12146,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 723,
                 "nom": "Papa",
                 "job": "Captain",
                 "force": 1000,
@@ -11401,6 +12167,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 724,
                 "nom": "Brief",
                 "job": "Captain",
                 "force": 1000,
@@ -11421,6 +12188,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 725,
                 "nom": "Ratchet",
                 "job": "Feudal lord",
                 "force": 1000,
@@ -11435,6 +12203,7 @@
                 "vivant": "living"
             },
             {
+                "id": 726,
                 "nom": "Honki",
                 "job": "Colonel",
                 "force": 1000,
@@ -11449,6 +12218,7 @@
                 "vivant": "living"
             },
             {
+                "id": 727,
                 "nom": "Maji",
                 "job": "General",
                 "force": 1000,
@@ -11463,6 +12233,7 @@
                 "vivant": "living"
             },
             {
+                "id": 728,
                 "nom": "Roba",
                 "job": "Resident",
                 "force": 1000,
@@ -11483,6 +12254,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 733,
                 "nom": "Schneider",
                 "job": "Captain",
                 "force": 1000,
@@ -11497,6 +12269,7 @@
                 "vivant": "living"
             },
             {
+                "id": 734,
                 "nom": "Buzz",
                 "job": "",
                 "force": 1000,
@@ -11517,6 +12290,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 735,
                 "nom": "Zéphyr",
                 "job": "Chef",
                 "force": 1000,
@@ -11531,6 +12305,7 @@
                 "vivant": "deceased"
             },
             {
+                "id": 736,
                 "nom": "Ain",
                 "job": "Vice-Admiral",
                 "force": 1000,
@@ -11545,6 +12320,7 @@
                 "vivant": "living"
             },
             {
+                "id": 737,
                 "nom": "Bins",
                 "job": "Lieutenant",
                 "force": 1000,
@@ -11565,6 +12341,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 738,
                 "nom": "Gild Tesoro",
                 "job": "Owner",
                 "force": 1000,
@@ -11579,6 +12356,7 @@
                 "vivant": "living"
             },
             {
+                "id": 739,
                 "nom": "Baccarat",
                 "job": "Concierge",
                 "force": 1000,
@@ -11593,6 +12371,7 @@
                 "vivant": "living"
             },
             {
+                "id": 740,
                 "nom": "Dice",
                 "job": "Dealer",
                 "force": 1000,
@@ -11607,6 +12386,7 @@
                 "vivant": "living"
             },
             {
+                "id": 741,
                 "nom": "Tanaka",
                 "job": "Safety Manager",
                 "force": 1000,
@@ -11621,6 +12401,7 @@
                 "vivant": "living"
             },
             {
+                "id": 742,
                 "nom": "Carina",
                 "job": "Owner",
                 "force": 1000,
@@ -11641,6 +12422,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 747,
                 "nom": "Uta",
                 "job": "Resident",
                 "force": 1000,
@@ -11655,6 +12437,7 @@
                 "vivant": "living"
             },
             {
+                "id": 748,
                 "nom": "Gordon",
                 "job": "Resident",
                 "force": 1000,
@@ -11675,6 +12458,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 754,
                 "nom": "Orlombus",
                 "job": "Admiral",
                 "force": 1000,
@@ -11687,7 +12471,7 @@
                 },
                 "pv": 2000,
                 "vivant": "living",
-                "prime": "148.000.000"
+                "prime": 148000000
             }
         ]
     },
@@ -11696,6 +12480,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 755,
                 "nom": "Macro",
                 "job": "Captain",
                 "force": 1000,
@@ -11716,6 +12501,7 @@
         "yonko": false,
         "membres": [
             {
+                "id": 760,
                 "nom": "Bigalo",
                 "job": null,
                 "force": 1000,
@@ -11728,7 +12514,7 @@
                 },
                 "pv": 2000,
                 "vivant": null,
-                "prime": "14.900.000"
+                "prime": 14900000
             }
         ]
     }

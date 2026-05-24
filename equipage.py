@@ -37,9 +37,9 @@ class Equipage():
         force_total = 0
 
         for membre in self.lst_membres:
-            force_total += membre.calcul_force_total()
-
-        print(force_total)
+            force = membre.calcul_force_total()
+            force_total += force
+        
         return force_total
         
                 

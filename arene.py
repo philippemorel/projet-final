@@ -1,86 +1,219 @@
 from personnage import Personnage
 from pirate import Pirate
 from marine import Marine
+from equipage import Equipage
 import random
 class Arene():
 
 
-    def __init__(self):
-        
-        self.lst_personnage : list[Personnage] = []
+    def __init__(self, lst_equipage , lst_perso):
+        self.lst_equipage : list[Equipage] = lst_equipage
+        self.lst_perso : list[Personnage] = lst_perso
 
 
 
 
+    def choix_move(self, personnage):
 
-    def choix_mouve(self, personnage : object):
-        
-        #todo si il a un fruit
-        if personnage.use_fruit == True :
-            choix = input("que voulez vous faire  (attaquer) (defendre) (regenerer) (attaque fruitée)")
-            match choix :
-                #todo attaque
-                case 1 :
+        print(f"Tour de {personnage.nom}")
 
-                    attaque = personnage.puissance
+        # Si le personnage possède un fruit
+        if personnage.use_fruit:
 
+            choix = input(
+                "Que voulez-vous faire ?\n"
+                "1 - Attaque normale\n"
+                "2 - Défense\n"
+                "3 - Régénération\n"
+                "4 - Attaque fruitée\n"
+            )
+        #! Si il n'en possède pas
+        else:
 
-                    print(f"vous attaquer et avec attaque coup de point")
-                    print(f"et faite 30 de degas")
-  
+            choix = input(
+                "Que voulez-vous faire ?\n"
+                "1 - Attaque normale\n"
+                "2 - Défense\n"
+                "3 - Régénération\n"
+            )
 
-
-
-    def afficher_personnages(self):
-        index = 0
-        for personnage in self.lst_personnage:
-            print(f"{index} - {personnage}")
-            index += 1
-
-
-
-    def combat (self):
-
-
-        index_personnage1 = input("quel premier personnage voulez vous faire combatre : ")
-        index_personnage2 = input("quel deuxieme personnage voulez vous faire combatre : ")
-
-        personnage1 = self.lst_personnage[index_personnage1]
-        personnage2 = self.lst_personnage[index_personnage2]
-
-        nombre_tour = 0
-        while personnage1.vie >= 0 and personnage2.vie >= 0 :
+        match choix:
             
-            #todo attaque du perso1
-            damage = personnage1.attaquer()
-            personnage2.pv -= damage
-            print(f"le personnage {personnage2.nom} a subis {damage} degat de {personnage1.nom}")
-            if personnage2.vie <= 0 :
-                print(f"personnage {personnage1.nom} a gagner")
-                break
-            #todo attaque du perso2 
-            damage = personnage2.attaquer()
-            personnage1.pv -= damage
-            print(f"le personnage {personnage1.nom} a subis {damage} degat de {personnage2.nom}")
+            # Attaque normale
+            case "1":
 
-            if personnage1.vie <= 0 :
-                print(f"personnage {personnage2.nom} a gagner")
+                damage = personnage.attaque()
+
+                print(f"{personnage.nom} utilise une attaque normale")
+                print(f"Dégâts infligés : {damage}")
+
+                return int(damage)
+
+            # Défense
+            case "2":
+
+                print(f"{personnage.nom} se met en position défensive")
+
+                return "defense"
+
+            # Régénération
+            case "3":
+
+                ancien_pv = personnage.pv
+                pv_apres = personnage.regen()
+
+                print(f"{personnage.nom} se régénère")
+                print(f"PV avant : {ancien_pv}")
+                print(f"PV après : {pv_apres}")
+                
+                return 0
+
+            # Attaque fruitée
+            case "4":
+
+                if personnage.use_fruit:
+
+                    damage = personnage.attaque_fruite()
+
+                    print(f"{personnage.nom} utilise son fruit du démon !")
+                    print(f"Dégâts infligés : {damage}")
+
+                    return int(damage)
+
+                else:
+
+                    print("Ce personnage ne possède pas de fruit")
+
+                    return 0
+
+            case _:
+
+                print("Choix invalide")
+
+                return 0
+
+    def combat(self, lst_perso: list):
+
+        # Calcul des PV
+        for person in lst_perso:
+
+            if isinstance(person, (Marine, Pirate)):
+                person.pv = person.calculer_pv()
+                person.pv_max = person.pv
+
+        #todo Affichage des personnages
+        print("\n===== LISTE DES PERSONNAGES =====")
+
+        for perso in lst_perso:
+            print(f"- {perso.nom}")
+
+        personnage1 = None
+        personnage2 = None
+
+        nom1 = input("Nom du premier personnage : ")
+        nom2 = input("Nom du deuxième personnage : ")
+
+        #todo Recherche des personnages
+        for perso in lst_perso:
+
+            if perso.nom == nom1:
+                personnage1 = perso
+
+            if perso.nom == nom2:
+                personnage2 = perso
+
+        #todo Vérification
+        if personnage1 is None or personnage2 is None:
+            print("Un des personnages n'existe pas.")
+            return
+
+        nombre_tour = 1
+
+        #todo Combat
+        while personnage1.pv > 0 and personnage2.pv > 0:
+
+            print(f"\n========== TOUR {nombre_tour} ==========")
+
+            #? =========================
+            #? TOUR DU PERSONNAGE 1
+            #? =========================
+
+            action1 = self.choix_move(personnage1)
+
+            # Défense
+            if action1 == "defense":
+
+                print(f"{personnage1.nom} est prêt à bloquer la prochaine attaque")
+
+                defense1 = True
+
+            else:
+
+                defense1 = False
+
+                if isinstance(action1, (int,float)):
+                    
+                    personnage2.pv -= action1
+
+                    print(f"{personnage2.nom} subit {action1} dégâts")
+                    print(f"PV restants : {personnage2.pv}")
+
+            # Vérification victoire
+            if personnage2.pv <= 0:
+
+                print(f"{personnage1.nom} a gagné le combat !")
+                break
+
+            #? =========================
+            #? TOUR DU PERSONNAGE 2
+            #? =========================
+
+            action2 = self.choix_move(personnage2)
+
+            # Défense
+            if action2 == "defense":
+
+                print(f"{personnage2.nom} est prêt à bloquer la prochaine attaque")
+
+                defense2 = True
+
+            else:
+
+                defense2 = False
+
+                if isinstance(action2, (int,float)):
+
+                    # Si personnage1 défend
+                    if defense1:
+                        
+                        degats_reduits = personnage1.defense(action2)
+
+                        print(f"{personnage1.nom} bloque une partie des dégâts !")
+                    
+                    personnage1.pv -= degats_reduits
+
+                    print(f"{personnage1.nom} subit {action2} dégâts")
+                    print(f"PV restants : {personnage1.pv}")
+
+            # Vérification victoire
+            if personnage1.pv <= 0:
+
+                print(f"\n{personnage2.nom} a gagné le combat !")
                 break
 
             nombre_tour += 1
             
-    #todo nombre de personnage encore avec de la vie
     def __len__(self):
         compteur = 0
         for personnage in self.lst_personnage:
-            if personnage.vie > 0:
+            if personnage.pv > 0:
                 compteur += 1
         return compteur
     
     def nettoyage_arene(self):
 
         for personnage in self.lst_personnage :
-            if personnage.vie <= 0 :
+            if personnage.pv <= 0 :
                 self.lst_personnage.remove(personnage)
 
 
@@ -88,8 +221,8 @@ class Arene():
     def battle_royal(self):
         lst_verif : list[Personnage|Pirate|Marine]= []
 
-        for personnage in self.lst_personnage :
-            if personnage.vie > 0 :
+        for personnage in self.lst_perso :
+            if personnage.pv > 0 :
                 lst_verif.append(personnage)
 
         nombre_tour = 1                
@@ -106,17 +239,17 @@ class Arene():
             personnage2 = lst_verif[index_personnage2]
                 
             #todo attaque du perso1
-            degat = personnage1.attaquer()
-            personnage2.subir_degat(degat)
+            degat = personnage1.attaque()
+            personnage2.pv -= degat
             print(f"le personnage {personnage2.nom} a subis {degat} degat de {personnage1.nom}")
-            if personnage2.vie <= 0 :
+            if personnage2.pv <= 0 :
                 print(f"personnage {personnage1.nom} a gagner contre {personnage2.nom}")
                 lst_verif.remove(personnage2)
             
             else :        
                 #todo attaque du perso2 
-                degat = personnage2.attaquer()
-                personnage1.subir_degat(degat)
+                degat = personnage2.attaque()
+                personnage1.pv -= degat
                 print(f"le personnage {personnage1.nom} a subis {degat} degat de {personnage2.nom}")
 
             if personnage1.vie <= 0 :

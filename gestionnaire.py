@@ -65,6 +65,7 @@ class Gestionnaire():
                     bounty = None
                 if bounty:
                     perso = Pirate(
+                    id = personnage.get("id"),
                     nom= personnage.get("name"),
                     job=personnage.get("job"),
                     age=age,
@@ -77,6 +78,7 @@ class Gestionnaire():
                     ) 
                 else :
                     perso = Marine(
+                    id = personnage.get("id"),
                     nom=personnage.get("name"),
                     job=personnage.get("job"),
                     age=age,
@@ -157,6 +159,7 @@ class Gestionnaire():
                     if "prime" in membre:
                         perso = Pirate(
                         #todo le perso
+                        membre["id"],
                         membre["nom"],
                         membre["job"],
                         membre["age"],
@@ -169,6 +172,7 @@ class Gestionnaire():
                     else:
                         perso = Marine(
                         #todo le perso
+                        membre["id"],
                         membre["nom"],
                         membre["job"],
                         membre["age"],
