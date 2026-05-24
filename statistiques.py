@@ -12,7 +12,7 @@ class Statistiques():
         self.lst_equipage : list[Equipage] = lst_equipage
         self.lst_perso : list[Personnage] = lst_perso
 
-
+    #? fait 
     def pie_vivant_mort_inconue(self):
         """Méthode pour faire un pie graph des personnages selon leur status
         """
@@ -50,7 +50,7 @@ class Statistiques():
         plt.title("Graphique circulaire de qui est mort, vivant ou porté disparu")
 
         plt.show()
-        
+    #? fait 
     def nb_perso_range_prime(self):
         """Méthode pour faire un graphiqe qui classe les perso selon la valeur de leur prime
 
@@ -108,7 +108,7 @@ class Statistiques():
 
 
 
-
+    #? fait 
     def force_en_fonction_age(self):
         """Méthode pour faire un graphique qui classe les personnages en fonction de la force et l'age
         """
@@ -192,7 +192,7 @@ class Statistiques():
         #todo Magie : on appelle la fonction tri rapide avec la liste des petits et des grands
         #todoensuite on combine le résultat des listes triées avec le pivot pour obtenir la liste triée finale
         return Statistiques.tri_rapide(petits) + [pivot] + Statistiques.tri_rapide(grands)
-
+    #? fait
     def top_10_age(self):
     
         lst_tri = Statistiques.tri_rapide("age")
@@ -202,7 +202,7 @@ class Statistiques():
             lst_top_10.append(lst_tri[nb_element])
             top_10 = lst_top_10.pop()
             print(top_10)
-
+    #? fait
     def top_10_size(self):
     
         lst_tri = Statistiques.tri_rapide("size")
@@ -212,14 +212,14 @@ class Statistiques():
             lst_top_10.append(lst_tri[nb_element])
             top_10 = lst_top_10.pop()
             print(top_10)
-    
+    #? fait
     def moyenne_age(self):
         ano = 0
         for x in self.lst_perso:
             ano += x.age
         ano / len(self.lst_perso)
         print(f"L'âge moyenne est de {ano}")
-
+    #? fait
     def moyenne_size(self):
         sizo = 0
         for x in self.lst_perso:

@@ -62,17 +62,21 @@ while choix != 0:
                 tot = equipage.force_total_equipe()
                 print(f"{tot} de puissance dans l'equipage {equipage.nom}")
         case 2:
+            #? fait 
             print()
             print(" Génération des boxplots des statistiques...")
             statistiques.pie_vivant_mort_inconue()
         case 3:
+            #? fait 
             print()
             print(" Génération des boxplots des statistiques...")
             statistiques.nb_perso_range_prime()
         case 4:
+            #? fait 
             print()
             print(" Génération des boxplots des statistiques...")
             statistiques.force_en_fonction_age()
+        
         case 5:
             print("══════ ARÈNE DES PIRATES ══════")
             print("═════════combat de 1v1═════════")
@@ -88,7 +92,21 @@ while choix != 0:
             print("════════ combat de ffa ════════")  
             arene.battle_royal()
             arene.nettoyage_arene()
-            
+        #? les top
+        case 8:
+            #? fait
+            statistiques.top_10_age()
+        case 9:
+            #? fait
+            statistiques.top_10_size()
+
+        #? les moyenne
+        case 10:
+            #? fait
+            statistiques.moyenne_age()
+        case 11:
+            #? fait
+            statistiques.moyenne_size()
         case 0:
 
             print("""
