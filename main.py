@@ -36,82 +36,91 @@ statistiques = Statistiques(gestionnaire.lst_equipage, lst_membre)
 arene = Arene(gestionnaire.lst_equipage, lst_membre)
 
 choix = 1000000
+
 while choix != 0:
     print("""
-    ╔══════════════════════════════════════════════╗
-    ║          GRAND LINE - MENU PIRATE            ║
-    ╠══════════════════════════════════════════════╣
-    ║  1    Voir la puissance des équipages        ║ 
-    ║  2    Statistiques vivants / morts           ║
-    ║  3    Voir les primes des personnages        ║
-    ║  4    Force en fonction de l'âge             ║
-    ║  5    Lancer un combat dans l'arène          ║
-    ║  6    Afficher les boxplots des stats        ║
-    ║  7    combat de ffa                          ║
-    ║  0    Quitter le monde de One Piece          ║
-    ╚══════════════════════════════════════════════╝
-    """)
+╔══════════════════════════════════════════════════════════╗
+║                   GRAND LINE - MENU PIRATE               ║
+╠══════════════════════════════════════════════════════════╣
+║  1  │ Voir la puissance des équipages                    ║
+║  2  │ Statistiques vivants / morts                       ║
+║  3  │ Voir les primes des personnages                    ║
+║  4  │ Force en fonction de l'âge                         ║
+║  5  │ le plus grand et le plus petit                     ║
+║  6  │ Afficher les boxplots des stats                    ║
+║  7  │ Combat de FFA                                      ║
+║  8  │ Top 10 âge                                         ║
+║  9  │ Top 10 taille                                      ║
+║ 10  │ Moyenne âge                                        ║
+║ 11  │ Moyenne taille                                     ║
+║  0  │ Quitter le monde de One Piece                      ║
+╚══════════════════════════════════════════════════════════╝
+""")
+
     try:
-        choix = int(input("Quel est votre choix: "))
+        choix = int(input(" Quel est votre choix : "))
     except ValueError:
-        print("Veuillez entrer un nombre valide.")
+        print(" Veuillez entrer un nombre valide.")
         continue
-    match choix :
-        case 1 :
+
+    match choix:
+
+        case 1:
             for equipage in gestionnaire.lst_equipage:
                 tot = equipage.force_total_equipe()
-                print(f"{tot} de puissance dans l'equipage {equipage.nom}")
+                print(f" {tot} de puissance dans l'équipage {equipage.nom}")
+
         case 2:
-            #? fait 
-            print()
-            print(" Génération des boxplots des statistiques...")
+            print(" Génération des statistiques...")
             statistiques.pie_vivant_mort_inconue()
+
         case 3:
-            #? fait 
-            print()
-            print(" Génération des boxplots des statistiques...")
+            print(" Génération diagrame a bande des statistiques...")
             statistiques.nb_perso_range_prime()
+
         case 4:
-            #? fait 
-            print()
-            print(" Génération des boxplots des statistiques...")
+            print(" Génération des statistiques force et âges...")
             statistiques.force_en_fonction_age()
-        
+
         case 5:
-            print("══════ ARÈNE DES PIRATES ══════")
-            print("═════════combat de 1v1═════════")
-            arene.combat(lst_membre)
-            print()
-            print(" Fin du combat du Nouveau Monde!")
-        case 6 :
-            print()
-            print(" Génération des boxplots des statistiques...")
+            print(" Génération des statistiques du plus grand et du plus petit...")
+            statistiques.premier_dernier_size()
+            
+        case 6:
+        
+            print(" Génération des boxplots des stats...")
             statistiques.graph_boxplot_stats()
-        case 7 : 
+
+        case 7:
             print("══════ ARÈNE DES PIRATES ══════")
-            print("════════ combat de ffa ════════")  
+            print("══════════ COMBAT FFA ══════════")
             arene.battle_royal()
-            arene.nettoyage_arene()
-        #? les top
+            
+
         case 8:
-            #? fait
+            print(" TOP 10 - ÂGE")
+            print("────────────────────────────")
             statistiques.top_10_age()
+
         case 9:
-            #? fait
+            print(" TOP 10 - TAILLE")
+            print("────────────────────────────")
             statistiques.top_10_size()
 
-        #? les moyenne
         case 10:
-            #? fait
+            print(" MOYENNE D'ÂGE")
+            print("────────────────────────────")
             statistiques.moyenne_age()
-        case 11:
-            #? fait
-            statistiques.moyenne_size()
-        case 0:
 
+        case 11:
+            print(" MOYENNE DE TAILLE")
+            print("────────────────────────────")
+            statistiques.moyenne_size()
+
+        case 0:
             print("""
-            ╔══════════════════════════════╗
-            ║    One Piece est terminé     ║
-            ║      Merci capitaine         ║
-            ╚══════════════════════════════╝
-            """)
+                ╔══════════════════════════════════════╗
+                ║      ONE PIECE EST TERMINÉ           ║
+                ║        Merci capitaine               ║
+                ╚══════════════════════════════════════╝
+                """)

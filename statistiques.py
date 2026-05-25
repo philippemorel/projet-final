@@ -4,7 +4,7 @@ from personnage import Personnage
 from equipage import Equipage
 from marine import Marine
 from pirate import Pirate
-
+import matplotlib.pyplot as plt
 class Statistiques():
 
 
@@ -133,7 +133,7 @@ class Statistiques():
             
         
 
-        import matplotlib.pyplot as plt
+        
 
         plt.scatter(ages, forces)
 
@@ -169,66 +169,133 @@ class Statistiques():
             if not trouve:
                 print("Aucun personnage trouvée avec cet ID.")
 
-    def tri_rapide(lst_perso: list[Personnage], element_a_trier):
+                
+    @staticmethod
+    def tri_rapide(lst_perso: list[Personnage], element_a_trier : object ):
+        """trie rapidement les liste a un element precis
+
+        Args:
+            lst_perso (list[Personnage]): est une liste des objet personnage
+            element_a_trier (object): est l'objet a trier
+
+        Returns:
+            info:  ce qui fait marcher le trie rapide
+        """
 
         lst_tri = lst_perso.copy()
 
-        #todo si la liste est vide ou ne contient qu'un élément:
-        #todoelle est triée, on revoie directement la liste
+        #todo si la liste est vide ou contient 1 élément
         if len(lst_tri) <= 1:
             return lst_tri
-            
-        pivot = lst_tri[len(lst_tri)-1]  #todo pivot=dernier élément
+
+        pivot = lst_tri[-1]
 
         petits = []
         grands = []
 
-        for i in range(len(lst_tri)-1):  #todo on parcourt tous les éléments sauf le pivot
-            if lst_tri[i].element_a_trier < pivot:
-                petits.append(lst_tri[i])  #todo on ajoute les éléments plus petits que le pivot à la liste "petits"
+        for i in range(len(lst_tri) - 1):
+
+            #todo AGE
+            if element_a_trier == "age":
+
+                valeur_actuelle = lst_tri[i].age or 0
+                valeur_pivot = pivot.age or 0
+
+            #todo SIZE
+            elif element_a_trier == "size":
+
+                valeur_actuelle = lst_tri[i].size or 0
+                valeur_pivot = pivot.size or 0
+
+            #todo PRIME
+            elif element_a_trier == "prime":
+
+                valeur_actuelle = lst_tri[i].prime or 0
+                valeur_pivot = pivot.prime or 0
+
             else:
-                grands.append(lst_tri[i])  #todo on ajoute les éléments plus grands ou égaux au pivot à la liste "grands"
-            
-        #todo Magie : on appelle la fonction tri rapide avec la liste des petits et des grands
-        #todoensuite on combine le résultat des listes triées avec le pivot pour obtenir la liste triée finale
-        return Statistiques.tri_rapide(petits) + [pivot] + Statistiques.tri_rapide(grands)
-    #? fait
+                return lst_tri
+
+            if valeur_actuelle < valeur_pivot:
+                petits.append(lst_tri[i])
+            else:
+                grands.append(lst_tri[i])
+
+        return (
+            Statistiques.tri_rapide(petits, element_a_trier)
+            + [pivot]
+            + Statistiques.tri_rapide(grands, element_a_trier)
+        )
+
+
+    #todo TOP 10 AGE
     def top_10_age(self):
-    
-        lst_tri = Statistiques.tri_rapide("age")
-        nb_element = len(lst_tri)
-        lst_top_10 = []
-        for x in range(10):
-            lst_top_10.append(lst_tri[nb_element])
-            top_10 = lst_top_10.pop()
-            print(top_10)
-    #? fait
+        """permet de savoir le top 10 des ages
+        """
+
+        lst_tri = Statistiques.tri_rapide(self.lst_perso, "age")
+
+        for personnage in reversed(lst_tri[-10:]):
+            print(f"{personnage.nom} : {personnage.age} ans")
+
+
+    #todo TOP 10 GRANDEUR
     def top_10_size(self):
-    
-        lst_tri = Statistiques.tri_rapide("size")
-        nb_element = len(lst_tri)
-        lst_top_10 = []
-        for x in range(10):
-            lst_top_10.append(lst_tri[nb_element])
-            top_10 = lst_top_10.pop()
-            print(top_10)
-    #? fait
+        """permet de savoir le top 10 des plus grand
+        """
+
+        lst_tri = Statistiques.tri_rapide(self.lst_perso, "size")
+        #todo 
+        for personnage in reversed(lst_tri[-10:]):
+            print(f"{personnage.nom} : {personnage.size} cm")
+
+    #todo savoit max min de la grandeur
+    def premier_dernier_size(self):
+        """prend le plus grand et le plus petit et les affiche
+        """
+
+        lst_tri = Statistiques.tri_rapide(self.lst_perso, "size")
+
+        #todo Plus grand
+        plus_grand = lst_tri[-1]
+
+        print(f"Plus grand : {plus_grand.nom} : {plus_grand.size} cm")
+
+        for perso in lst_tri:
+            if perso.size is not None:
+                print(f"Plus petit : {perso.nom} : {perso.size} cm")
+                break
+        
+
+    #todo MOYENNE AGE
     def moyenne_age(self):
-        ano = 0
-        for x in self.lst_perso:
-            ano += x.age
-        ano / len(self.lst_perso)
-        print(f"L'âge moyenne est de {ano}")
-    #? fait
+        """ permet le calcule de la moyenne d'age
+        """
+
+        total = 0
+
+        for personnage in self.lst_perso:
+            total += personnage.age or 0
+
+        moyenne = total / len(self.lst_perso)
+
+        print(f"L'âge moyen est de {moyenne:.2f} ans")
+
+
+    #todo MOYENNE GRANDEUR
     def moyenne_size(self):
-        sizo = 0
-        for x in self.lst_perso:
-            sizo += x.size
-        sizo / len(self.lst_perso)
-        print(f"La grandeur moyenne est de {sizo}")
-  
+        """ permet le calcule de la moyenne de grandeur
+        """
+        total = 0
 
+        for personnage in self.lst_perso:
+            total += personnage.size or 0
 
+        moyenne = total / len(self.lst_perso)
+
+        print(f"La grandeur moyenne est de {int(moyenne):} cm")
+
+    #? fait
     def graph_boxplot_stats(self):
 
         forces = []

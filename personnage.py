@@ -99,21 +99,15 @@ class Personnage():
 
         return total
 
+    
+    def attaque(self) -> int:
+        return self.calcul_force_total()
+    
     def calculer_pv(self) -> None :
         """Méthode pour calculer le total de pv
         """
         self.pv = self.force * 5
         return self.pv
-    def attaque(self) -> int :
-        """Méthode pour calculer le nombre de dégâts causé par une attaque
-
-        Returns:
-            int: Le nombre de dommge
-        """
-        dammage = self.force * 0.8
-
-        return int(dammage)
-    
     def defense(self, dammage : int) -> int:
         """Méthode pour calculer le total de dégat moins le nombre de dégat bloqué
 

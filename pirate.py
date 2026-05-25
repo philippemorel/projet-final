@@ -61,6 +61,11 @@ class Pirate(Personnage):
     
     
     def calcul_puissance_prime(self):
+        """permet de calculer la puissance par raport a la prime
+
+        Returns:
+            int : la valeur de puissance
+        """
         if not self.prime:
             return 0
 
@@ -132,6 +137,8 @@ class Pirate(Personnage):
         total = self.calculer_puissance_fruit(force)
 
         return total
+    def attaque(self):
+        return super().attaque()
     
         
         

@@ -3,6 +3,7 @@ from pirate import Pirate
 from marine import Marine
 from equipage import Equipage
 import random
+import copy
 class Arene():
 
 
@@ -13,7 +14,12 @@ class Arene():
 
 
 
-    def choix_move(self, personnage):
+    def choix_move(self, personnage : object):
+        """Méthode pour choisir quel mouve entre attaque, défense, regen et attaque fruité va faire le perso en question
+
+        """
+        
+
 
         print(f"Tour de {personnage.nom}")
 
@@ -21,25 +27,25 @@ class Arene():
         if personnage.use_fruit:
 
             choix = input(
-                "Que voulez-vous faire ?\n"
-                "1 - Attaque normale\n"
-                "2 - Défense\n"
-                "3 - Régénération\n"
-                "4 - Attaque fruitée\n"
+                "Que voulez-vous faire ?"
+                "1 - Attaque normale"
+                "2 - Défense"
+                "3 - Régénération"
+                "4 - Attaque fruitée"
             )
         #! Si il n'en possède pas
         else:
 
             choix = input(
-                "Que voulez-vous faire ?\n"
-                "1 - Attaque normale\n"
-                "2 - Défense\n"
-                "3 - Régénération\n"
+                "Que voulez-vous faire ?"
+                "1 - Attaque normale"
+                "2 - Défense"
+                "3 - Régénération"
             )
 
         match choix:
             
-            # Attaque normale
+            #todo Attaque normale
             case "1":
 
                 damage = personnage.attaque()
@@ -49,14 +55,14 @@ class Arene():
 
                 return int(damage)
 
-            # Défense
+            #todo Défense
             case "2":
 
                 print(f"{personnage.nom} se met en position défensive")
 
                 return "defense"
 
-            # Régénération
+            #todo Régénération
             case "3":
 
                 ancien_pv = personnage.pv
@@ -68,7 +74,7 @@ class Arene():
                 
                 return 0
 
-            # Attaque fruitée
+            #todo Attaque fruitée
             case "4":
 
                 if personnage.use_fruit:
@@ -91,18 +97,20 @@ class Arene():
                 print("Choix invalide")
 
                 return 0
-
+    #? la force et le pv ne sont pas actualiser 
+    #? et ne rentre pas dans la boucle du combat ses comme si il n'a pas de pv
     def combat(self, lst_perso: list):
 
         # Calcul des PV
         for person in lst_perso:
 
             if isinstance(person, (Marine, Pirate)):
-                person.pv = person.calculer_pv()
-                person.pv_max = person.pv
+                force_total = person.calcul_force_total()
+
+            person.pv = person.calculer_pv()
 
         #todo Affichage des personnages
-        print("\n===== LISTE DES PERSONNAGES =====")
+        print("===== LISTE DES PERSONNAGES =====")
 
         for perso in lst_perso:
             print(f"- {perso.nom}")
@@ -132,7 +140,7 @@ class Arene():
         #todo Combat
         while personnage1.pv > 0 and personnage2.pv > 0:
 
-            print(f"\n========== TOUR {nombre_tour} ==========")
+            print(f"========== TOUR {nombre_tour} ==========")
 
             #? =========================
             #? TOUR DU PERSONNAGE 1
@@ -140,7 +148,14 @@ class Arene():
 
             action1 = self.choix_move(personnage1)
 
-            # Défense
+
+            #!Choix mouve du personnage 2 en mnême temps pour lui permettre bloquer
+            action2 = self.choix_move(personnage2)
+            if action2 == "defense":
+
+                print(f"{personnage2.nom} est prêt à bloquer la prochaine attaque")
+            
+            #todo Défense
             if action1 == "defense":
 
                 print(f"{personnage1.nom} est prêt à bloquer la prochaine attaque")
@@ -151,14 +166,25 @@ class Arene():
 
                 defense1 = False
 
-                if isinstance(action1, (int,float)):
-                    
-                    personnage2.pv -= action1
+                if isinstance(action1, (int, float)):
 
-                    print(f"{personnage2.nom} subit {action1} dégâts")
-                    print(f"PV restants : {personnage2.pv}")
+                    if defense2:
 
-            # Vérification victoire
+                        degats_reduits = personnage2.defense(action1)
+
+                        personnage2.pv -= degats_reduits
+
+                        print(f"{personnage2.nom} bloque une partie des dégâts !")
+                        print(f"{personnage2.nom} subit {degats_reduits} dégâts")
+                        print(f"PV restants : {personnage2.pv}")
+                    else:
+
+                        personnage2.pv -= action1
+
+                        print(f"{personnage2.nom} subit {action1} dégâts")
+                        print(f"PV restants : {personnage2.pv}")
+
+            #todo Vérification victoire
             if personnage2.pv <= 0:
 
                 print(f"{personnage1.nom} a gagné le combat !")
@@ -168,12 +194,11 @@ class Arene():
             #? TOUR DU PERSONNAGE 2
             #? =========================
 
-            action2 = self.choix_move(personnage2)
+            
 
-            # Défense
+            #todo Défense
+            
             if action2 == "defense":
-
-                print(f"{personnage2.nom} est prêt à bloquer la prochaine attaque")
 
                 defense2 = True
 
@@ -181,24 +206,30 @@ class Arene():
 
                 defense2 = False
 
-                if isinstance(action2, (int,float)):
+                if isinstance(action2, (int, float)):
 
-                    # Si personnage1 défend
+                    #todo Si personnage1 défend
                     if defense1:
-                        
+
                         degats_reduits = personnage1.defense(action2)
 
-                        print(f"{personnage1.nom} bloque une partie des dégâts !")
-                    
-                    personnage1.pv -= degats_reduits
+                        personnage1.pv -= degats_reduits
 
-                    print(f"{personnage1.nom} subit {action2} dégâts")
+                        print(f"{personnage1.nom} bloque une partie des dégâts !")
+                        print(f"{personnage1.nom} subit {degats_reduits} dégâts")
+
+                    else:
+
+                        personnage1.pv -= action2
+
+                        print(f"{personnage1.nom} subit {action2} dégâts")
+
                     print(f"PV restants : {personnage1.pv}")
 
-            # Vérification victoire
+            #todo Vérification victoire
             if personnage1.pv <= 0:
 
-                print(f"\n{personnage2.nom} a gagné le combat !")
+                print(f"{personnage2.nom} a gagné le combat !")
                 break
 
             nombre_tour += 1
@@ -210,16 +241,16 @@ class Arene():
                 compteur += 1
         return compteur
     
-    def nettoyage_arene(self):
 
-        for personnage in self.lst_perso :
-            if personnage.pv <= 0 :
-                self.lst_perso.remove(personnage)
 
 
 
     def battle_royal(self):
-        lst_verif : list[Personnage|Pirate|Marine]= []
+        """permet de faire combatre tout le monde et savoir le dernier survivant
+
+        """
+        #todo deepcopy permet de copier tout l'objet
+        lst_verif = copy.deepcopy(self.lst_perso)
 
         #todo Reset des PV
         for personnage in self.lst_perso:
@@ -272,7 +303,7 @@ class Arene():
 
             nombre_tour += 1
 
-        print(f"\nLe gagnant est {lst_verif[0].nom}")
+        print(f"Le gagnant est {lst_verif[0].nom}")
 
 
 
