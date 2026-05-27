@@ -33,7 +33,7 @@ class Pirate(Personnage):
 
 
 
-    def caculer_puissance_age(self) :
+    def calculer_puissance_age(self) :
         """Méthode pour calculer la puissance selon l'âge
 
         Returns:
@@ -55,6 +55,8 @@ class Pirate(Personnage):
                 force_age += 50
             elif self.age > 60 :
                 force_age += 50
+            else :
+                force_age += 30
         except TypeError:
             pass
         return force_age
@@ -67,7 +69,7 @@ class Pirate(Personnage):
             int : la valeur de puissance
         """
         if not self.prime:
-            return 0
+            return 100
 
         try:
             prime_str = str(self.prime).replace('.', '')
@@ -81,6 +83,8 @@ class Pirate(Personnage):
                 return  1000
             elif prime > 1_000_000:
                 return  100
+            else : 
+                return 150
 
         except ValueError:
             return 0
@@ -121,7 +125,8 @@ class Pirate(Personnage):
 
                 case "Clone":
                     force *= 3
-
+        else :
+            force *= 1
         return int(force)
     
     def calcul_force_total(self):
@@ -132,13 +137,12 @@ class Pirate(Personnage):
         """
         prime = self.calcul_puissance_prime()
 
-        age = self.caculer_puissance_age()
+        age = self.calculer_puissance_age()
         force = prime + age + self.force
         total = self.calculer_puissance_fruit(force)
 
         return total
-    def attaque(self):
-        return super().attaque()
+   
     
         
         

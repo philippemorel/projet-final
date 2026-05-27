@@ -53,7 +53,7 @@ class Arene():
                 print(f"{personnage.nom} utilise une attaque normale")
                 print(f"Dégâts infligés : {damage}")
 
-                return int(damage)
+                return float(damage)
 
             #todo Défense
             case "2":
@@ -72,7 +72,7 @@ class Arene():
                 print(f"PV avant : {ancien_pv}")
                 print(f"PV après : {pv_apres}")
                 
-                return 0
+                return "regen"
 
             #todo Attaque fruitée
             case "4":
@@ -99,6 +99,8 @@ class Arene():
                 return 0
     #? la force et le pv ne sont pas actualiser 
     #? et ne rentre pas dans la boucle du combat ses comme si il n'a pas de pv
+    defense1 = False 
+    defense2 = False 
     def combat(self, lst_perso: list):
 
         # Calcul des PV
@@ -126,19 +128,34 @@ class Arene():
 
             if perso.nom == nom1:
                 personnage1 = perso
-
+                personnage1_nom = perso.nom
+                personnage1_pv = perso.pv
+                personnage1_force = perso.force
+                teste = personnage1.calcul_force_total()
+                print(teste)
+                print(personnage1_nom)
+                print(personnage1_pv)
+                print("perso1")
             if perso.nom == nom2:
                 personnage2 = perso
-
+                personnage2_nom = perso.nom
+                personnage2_pv = perso.pv
+                personnage2_force = perso.force
+                print(personnage2_force )
+                print(personnage2_nom)
+                print(personnage2_pv)
+                print("perso2")
+    
         #todo Vérification
-        if personnage1 is None or personnage2 is None:
+        if personnage1_nom is None or personnage2_nom is None:
             print("Un des personnages n'existe pas.")
             return
 
         nombre_tour = 1
-
+        defense2 = False
+        defense1 = False
         #todo Combat
-        while personnage1.pv > 0 and personnage2.pv > 0:
+        while personnage1_pv > 0 and personnage2_pv > 0:
 
             print(f"========== TOUR {nombre_tour} ==========")
 
@@ -151,81 +168,56 @@ class Arene():
 
             #!Choix mouve du personnage 2 en mnême temps pour lui permettre bloquer
             action2 = self.choix_move(personnage2)
-            if action2 == "defense":
 
-                print(f"{personnage2.nom} est prêt à bloquer la prochaine attaque")
-            
-            #todo Défense
-            if action1 == "defense":
+            if action1 >= 0 :
+                if action2 == "defense":
+                    print(f"{personnage2.nom} est prêt à bloquer la prochaine attaque")
+                                    
+                    degats_reduits = personnage2.defense(action1)
 
-                print(f"{personnage1.nom} est prêt à bloquer la prochaine attaque")
+                    personnage2.pv -= degats_reduits
 
-                defense1 = True
+                    print(f"{personnage2.nom} bloque une partie des dégâts !")
+                    print(f"{personnage2.nom} subit {degats_reduits} dégâts")
+                    print(f"PV restants : {personnage2.pv}")
+                else :
+                    print(f"le personage 1 fait {action1} domage a {personnage2.nom}")
+                    personnage2.pv -= action1
+                    print(personnage2.pv)
+            else :
+                print("il se passe rien ")
+            if action2 >= 0 :
+                if action1 == "defense":
+                    print(f"{personnage1.nom} est prêt à bloquer la prochaine attaque")
+                                    
+                    degats_reduits = personnage1.defense(action1)
 
+                    personnage1.pv -= degats_reduits
+
+                    print(f"{personnage1.nom} bloque une partie des dégâts !")
+                    print(f"{personnage1.nom} subit {degats_reduits} dégâts")
+                    print(f"PV restants : {personnage1.pv}")
+                else :
+                    print(f"le personage 2 fait {action2} domage a {personnage1.nom}")
+                    personnage1.pv -= action2
+                    print(personnage1.pv)
             else:
-
-                defense1 = False
-
-                if isinstance(action1, (int, float)):
-
-                    if defense2:
-
-                        degats_reduits = personnage2.defense(action1)
-
-                        personnage2.pv -= degats_reduits
-
-                        print(f"{personnage2.nom} bloque une partie des dégâts !")
-                        print(f"{personnage2.nom} subit {degats_reduits} dégâts")
-                        print(f"PV restants : {personnage2.pv}")
-                    else:
-
-                        personnage2.pv -= action1
-
-                        print(f"{personnage2.nom} subit {action1} dégâts")
-                        print(f"PV restants : {personnage2.pv}")
-
+                print("il se passe rien ")    
+            #todo Défense
+            if action1 == "regen":
+                print("le personage 1 de regen")
+                print(personnage1.pv)
+                personnage1.regen()
+                print(personnage1.pv)
+            if action2 == "regen":
+                print("le personage 2 de regen")
+                print(personnage2.pv)
+                personnage2.regen()
+                print(personnage2.pv)
             #todo Vérification victoire
             if personnage2.pv <= 0:
-
                 print(f"{personnage1.nom} a gagné le combat !")
                 break
-
-            #? =========================
-            #? TOUR DU PERSONNAGE 2
-            #? =========================
-
-            
-
-            #todo Défense
-            
-            if action2 == "defense":
-
-                defense2 = True
-
-            else:
-
-                defense2 = False
-
-                if isinstance(action2, (int, float)):
-
-                    #todo Si personnage1 défend
-                    if defense1:
-
-                        degats_reduits = personnage1.defense(action2)
-
-                        personnage1.pv -= degats_reduits
-
-                        print(f"{personnage1.nom} bloque une partie des dégâts !")
-                        print(f"{personnage1.nom} subit {degats_reduits} dégâts")
-
-                    else:
-
-                        personnage1.pv -= action2
-
-                        print(f"{personnage1.nom} subit {action2} dégâts")
-
-                    print(f"PV restants : {personnage1.pv}")
-
             #todo Vérification victoire
             if personnage1.pv <= 0:
 

@@ -319,7 +319,7 @@ class Statistiques():
 
 
         
-
+#!#######################################
             #todo calcul de la force réelle selon le type
             if isinstance(person, Marine):
                 person.pv = person.calculer_pv()

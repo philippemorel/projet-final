@@ -35,7 +35,7 @@ class Personnage():
             "vivant" : self.vivant
         }
     
-    def caculer_puissance_age(self) -> int :
+    def calculer_puissance_age(self) -> int :
         """Méthode pour calculer la puissance selon l'âge
 
         Returns:
@@ -58,6 +58,8 @@ class Personnage():
                 force_age += 50
             elif self.age > 60 :
                 force_age += 50
+            else :
+                force_age += 30
         except TypeError:
             pass
         return force_age
@@ -85,13 +87,15 @@ class Personnage():
 
                 case "Clone":
                     force *= 3
+        else:
+            force = 1
 
         return int(force)
     
     def calcul_force_total(self) -> int:
         """Méthode pour calculer le total de la force"""
 
-        age = self.caculer_puissance_age()
+        age = self.calculer_puissance_age()
 
         force = age + self.force
 
@@ -130,7 +134,7 @@ class Personnage():
         return self.pv
 
     def attaque_fruite(self) -> int:
-    
+        
         dammage = self.force * 1.1
 
         return int(dammage)

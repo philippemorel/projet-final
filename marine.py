@@ -5,7 +5,7 @@ class Marine(Personnage):
     def __init__(self,id, nom, job, age, size, use_fruit, fruit, vivant):
         super().__init__(id,nom, job, age, size, use_fruit, fruit, vivant)
     
-    def caculer_puissance_age(self) :
+    def calculer_puissance_age(self) :
         """Méthode pour calculer la puissance selon l'âge
 
         Returns:
@@ -27,6 +27,8 @@ class Marine(Personnage):
                 force_age += 50
             elif self.age > 60 :
                 force_age += 50
+            else : 
+                force_age +=30
         except TypeError:
             pass
         return force_age
@@ -51,6 +53,8 @@ class Marine(Personnage):
             force_job += 250
         elif self.job == "Rear Admiral" :
             force_job += 250
+        else :
+            force_job += 200
         return force_job
 
     def calculer_puissance_fruit(self, force):
@@ -83,6 +87,8 @@ class Marine(Personnage):
 
                 case "Clone" :
                     force *= 3
+        else :
+            force *= 1
         return int(force)
             
     def calcul_force_total(self) :
@@ -91,9 +97,9 @@ class Marine(Personnage):
         Returns:
             int: Le total de la force
         """
-        age = self.caculer_puissance_age()
+        age = self.calculer_puissance_age()
         job = self.calculer_puissance_job()
-        force = age + job
+        force = age + job + self.force
         fruit = self.calculer_puissance_fruit(force)
         total = fruit
 

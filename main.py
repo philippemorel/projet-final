@@ -6,6 +6,7 @@ from pirate import Pirate
 from personnage import Personnage
 from fruit import Fruit
 from arene import Arene
+from test_pygame import image
 
 from statistiques import Statistiques
 
@@ -116,8 +117,10 @@ while choix != 0:
             print(" MOYENNE DE TAILLE")
             print("────────────────────────────")
             statistiques.moyenne_size()
-
+        case 12:
+            arene.combat(lst_membre)
         case 0:
+            image()
             print("""
                 ╔══════════════════════════════════════╗
                 ║      ONE PIECE EST TERMINÉ           ║
