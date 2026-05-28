@@ -54,6 +54,7 @@ while choix != 0:
 ║  9  │ Top 10 taille                                      ║
 ║ 10  │ Moyenne âge                                        ║
 ║ 11  │ Moyenne taille                                     ║
+║ 12  │ COMBAT 1V1                                         ║
 ║  0  │ Quitter le monde de One Piece                      ║
 ╚══════════════════════════════════════════════════════════╝
 """)
@@ -118,6 +119,8 @@ while choix != 0:
             print("────────────────────────────")
             statistiques.moyenne_size()
         case 12:
+            print("COMBAT 1V1")
+            print("────────────────────────────")
             arene.combat(lst_membre)
         case 0:
             image()

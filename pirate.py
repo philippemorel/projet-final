@@ -13,7 +13,7 @@ class Pirate(Personnage):
         if self.use_fruit == False :    
             return f"Nom: {self.nom}, Job: {self.job}, Force: {self.force}, Age: {self.age}, Taille: {self.size}, À un fruit: {self.use_fruit}, Point de vie: {self.pv}, Prime: {self.prime}"
         else :
-            return f"Nom: {self.nom}, Job: {self.job}, Force: {self.force}, Age: {self.age}, Taille: {self.size}, À un fruit: {self.use_fruit}, Type de fruit: {self.fruit.fruit_type}, Point de vie: {self.pv}, Prime: {self.prime}"
+            return f"Nom: {self.nom}, Job: {self.job}, Force: {self.force}, Age: {self.age}, Taille: {self.size}, À un fruit: {self.use_fruit}, Type de fruit: {self.fruit["fruit_type"]}, Point de vie: {self.pv}, Prime: {self.prime}"
 
     def to_dict(self): 
         return {
